@@ -1,0 +1,37 @@
+// Typography
+
+// Fonts
+$font-display: "alternate-gothic-no-1-d", sans-serif;
+$font-body: "freight-text-pro", serif;
+$font-bold: "freight-big-pro", serif;
+
+.font-display {
+  text-transform: uppercase;
+  font-family: $font-display;
+}
+.font-body {
+  font-weight: 400;
+  font-family: $font-body;
+}
+.font-bold {
+  font-weight: 700;
+  font-family: $font-bold;
+}
+
+// Typekit Fout styles
+h1,h2,h3,h4,h5,h6,
+p,a,ul,ol {
+  transition: opacity .5s ease-out;
+}
+.wf-loading {
+  h1,h2,h3,h4,h5,h6,
+  p,a,ul,ol {
+    opacity: 0;
+  }
+}
+.wf-active {
+  h1,h2,h3,h4,h5,h6,
+  p,a,ul,ol {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,66 @@
+//base styles
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  @extend .font-body;
+  color: $brand-secondary;
+  background: $brand-primary;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  @extend .font-display;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+a {
+	color: inherit;
+  &:focus {
+    outline: none;
+  }
+}
+
+img {
+  height: auto;
+	max-width: 100%;
+}
+
+.global-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 100;
+  position: fixed;
+  transition: opacity .2s ease-out;
+  background: rgba($brand-secondary, .9);
+  &.-active {
+    opacity: 1;
+  }
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 960px;
+  position: relative;
+  @include clearfix();
+  @include media-md {
+    // set breakpoints on a per-module basis when possible
+  }
+}

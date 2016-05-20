@@ -1,0 +1,25 @@
+// Home page
+
+body[data-bodyClass=index] {
+  background: url('../images/home.jpg') no-repeat;
+  background-size: cover;
+
+  .site-header {
+
+    h1 {
+      font-size: 96px;
+      line-height: .78125em;
+      br {
+        display: block;
+      }
+    }
+
+    @include media-md {  
+      h1 {
+        font-size: 96px;
+        line-height: .833333333em;
+      }
+    }
+  }
+
+}

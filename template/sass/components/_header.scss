@@ -1,0 +1,33 @@
+// Header
+
+.site-header {
+  padding: 60px 0;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  border-bottom: 1px solid $brand-secondary;
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1em;
+    letter-spacing: -.01em;
+    transition: all .2s ease-out;
+    br {
+      display: none;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  h2 {
+    font-size: 16px;
+    max-width: 200px;
+    @extend .font-bold;
+    text-transform: none;
+  }
+
+  @include media-md {
+    padding: 120px 0;
+  }
+}
