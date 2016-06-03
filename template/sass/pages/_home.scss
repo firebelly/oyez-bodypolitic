@@ -108,9 +108,27 @@ body[data-bodyClass=index] {
   &.nav-active {
     .site-nav {
       &.sub-nav-active {
-        top: 120px;
         height: 70vh;
         transform: translateY(0);
+
+        ul.nav-list .wrap {
+          height: 240px;
+        }
+
+        .sub-nav {
+          padding-top: 0;
+        }
+
+          @include media-sm {
+            top: 120px;
+            ul.nav-list .wrap {
+              height: 122px;
+            }
+
+            .sub-nav {
+              padding-top: $global-margin;
+            }
+          }
       }
     }
 

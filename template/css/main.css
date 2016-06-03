@@ -2968,11 +2968,27 @@ body[data-bodyClass=index] .site-footer {
   margin-top: 0;
 }
 body[data-bodyClass=index].nav-active .site-nav.sub-nav-active {
-  top: 120px;
   height: 70vh;
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
+}
+body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list .wrap {
+  height: 240px;
+}
+body[data-bodyClass=index].nav-active .site-nav.sub-nav-active .sub-nav {
+  padding-top: 0;
+}
+@media screen and (min-width: 700px) {
+  body[data-bodyClass=index].nav-active .site-nav.sub-nav-active {
+    top: 120px;
+  }
+  body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list .wrap {
+    height: 122px;
+  }
+  body[data-bodyClass=index].nav-active .site-nav.sub-nav-active .sub-nav {
+    padding-top: 64px;
+  }
 }
 body[data-bodyClass=index].nav-active .site-header {
   padding: 64px 0 0;
