@@ -10,14 +10,20 @@
 @import "helpers/grid";
 
 // Vendor
+@import "vendor/mediaplayerjs";
 
 // Components
 @import "components/animations";
 @import "components/base";
-@import "components/header";
-@import "components/nav";
-@import "components/page-transitions";
 @import "components/ui-components";
+@import "components/header";
+@import "components/resources";
+@import "components/nav";
+@import "components/chapter-nav";
+@import "components/media-player";
+@import "components/page-transitions";
+@import "components/chapter-content";
+@import "components/chapter-mods";
 @import "components/footer";
 
 // Pages

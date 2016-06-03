@@ -1,25 +1,146 @@
 // Home page
 
 body[data-bodyClass=index] {
-  background: url('../images/home.jpg') no-repeat;
-  background-size: cover;
+  background: $brand-primary;
+  @include media-sm {
+    padding-top: 0;
+  }
 
   .site-header {
-
+    position: relative;
+    padding-top: $global-margin;
+    background: url('../images/home.jpg') no-repeat $brand-primary;
+    background-size: cover;
+    transition: min-height .75s ease-out, padding .25s ease-out;
+    // transition-delay: .25s;
+    @include media-sm {
+      height: 85vh;
+      min-height: 600px;
+      padding: 120px 0 0;
+    }
+    
     h1 {
+      margin-top: 0;
       font-size: 96px;
+      margin-bottom: 0;
       line-height: .78125em;
+      will-change: font-size;
       br {
         display: block;
       }
     }
 
-    @include media-md {  
+    h2 {
+      display: block;
+      font-size: 16px;
+      max-width: 300px;
+      @extend .font-bold;
+      text-transform: none;
+      margin: 0 0 $global-mobile-margin;
+    }
+
+    @include media-sm {  
       h1 {
         font-size: 96px;
         line-height: .833333333em;
       }
+
+      h2 {
+        max-width: 200px;
+      }
     }
   }
 
+  .site-nav {
+    height: 270px;
+
+    &:not(.sub-nav-active) {
+      ul.nav-list > div > li:not(.un-hover) > a {
+        opacity: 1;
+      }
+    }
+
+    ul.nav-list {
+      border-bottom: none;
+
+      > div > li > a{
+        .chapter-numeral {
+          display: block;
+          &::after {
+            display: block;
+          }
+        }
+      }
+    }
+
+    @include media-sm {
+      left: 0;
+      right: 0;
+      top: 100%;
+      height: auto;
+      position: absolute;
+      transform: translateY(-100%);
+
+      ul.nav-list {
+        border-bottom: 1px solid $brand-secondary;
+      }
+    }
+  }
+
+  .header-background-slides {
+    .image-1 {
+      .photo-credit {
+        .credit {
+          opacity: 1;
+        }
+      }
+    }
+    .image-2 {
+      display: none;
+    }
+  }
+
+  .site-footer {
+    margin-top: 0;
+  }
+
+  // When nav is active on home page
+  &.nav-active {
+    .site-nav {
+      &.sub-nav-active {
+        top: 120px;
+        height: 70vh;
+        transform: translateY(0);
+      }
+    }
+
+    .site-header {
+      padding: $global-margin 0 0;
+
+      h1 {
+        font-size: 24px;
+        line-height: 1em;
+        max-width: 200px;
+        @extend .font-display;
+        letter-spacing: -.01em;
+        transition: all .5s ease-out;
+        a {
+          text-decoration: none;
+        }
+
+        @include media-sm {
+          margin: 0 0 #{$global-margin / 2};
+        }
+      }
+
+      h2 {
+        margin: 0;
+        display: none;
+        font-size: 16px;
+        max-width: 200px;
+        @extend .font-bold;
+        text-transform: none;
+      }
+    }
+  }
 }

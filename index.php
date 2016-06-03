@@ -4,9 +4,7 @@ if($_GET['type']!='ajax'){
 }
 ?>
       <div class="wrap">
-        <div class="sceneElement" data-viewport="0">
-
-        </div>
+        <div class="sceneElement" data-viewport="0"></div>
       </div>
 
 <?php

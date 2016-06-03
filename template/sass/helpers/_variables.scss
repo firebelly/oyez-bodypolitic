@@ -2,7 +2,7 @@
 
 // Colors
 $black: #444;
-$white: #fff;
+$white: #fffffa;
 $rose: #ff9182;
 $maroon: #6e5555;
 $blue-dark: #0a3241;
@@ -12,8 +12,15 @@ $marigold: #ffc378;
 $brand-primary: $blue-dark;
 $brand-secondary: $marigold;
 
+// Custom cubic-bezier
+$cubic-bezier: cubic-bezier(0.32,1,0.375,1);
+
+// Padding/Margins
+$global-margin: 64px;
+$global-mobile-margin: #{$global-margin / 2};
+
 // Grid max
-$grid-max: 960px;
+$grid-max: 1088px;
 
 // Breakpoints
 $breakpoint-xs: 400px;

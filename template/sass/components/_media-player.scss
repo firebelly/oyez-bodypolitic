@@ -1,0 +1,17 @@
+// Media player styles
+
+// Display video controls on touch devices by default
+.touch {
+  .chapter {
+    .chapter-vid {
+      .video {
+        &.mejs-container {
+          .mejs-controls {
+            display: block !important;
+            visibility: visible !important;
+          }
+        }
+      }
+    }
+  }
+}

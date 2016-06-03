@@ -9,7 +9,7 @@
   position: fixed;
   border-radius: 50%;
   animation: spin .5s linear infinite;
-  border-right: 3px solid $brand-primary;
-  border-bottom: 3px solid $brand-primary;
+  border-right: 3px solid $brand-secondary;
+  border-bottom: 3px solid $brand-secondary;
   transform: translate(-50%, -50%) rotate(0);
 }

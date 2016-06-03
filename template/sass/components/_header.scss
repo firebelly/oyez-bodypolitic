@@ -1,33 +1,237 @@
 // Header
 
 .site-header {
-  padding: 60px 0;
+  z-index: 1;
+  position: relative;
   background-size: cover;
+  color: $brand-secondary;
+  background-color: $maroon;
+  background-repeat: no-repeat;
+  transition: all .5s ease-out;
+  padding: $global-mobile-margin 0 0;
   -webkit-font-smoothing: antialiased;
-  border-bottom: 1px solid $brand-secondary;
+  &::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    position: absolute;
+    background: rgba($brand-primary, 0);
+    transition: background .5s ease-out;
+  }
+
+  @include media-md {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    padding-top: $global-margin;
+  }
+
+  .site-title {
+    float: left;
+  }
 
   h1 {
     margin: 0;
     font-size: 24px;
     line-height: 1em;
+    max-width: 200px;
+    @extend .font-display;
     letter-spacing: -.01em;
-    transition: all .2s ease-out;
-    br {
-      display: none;
-    }
+    transition: all .5s ease-out;
     a {
       text-decoration: none;
+    }
+
+    @include media-md {
+      margin: 0 0 #{$global-margin / 2};
     }
   }
 
   h2 {
-    font-size: 16px;
-    max-width: 200px;
-    @extend .font-bold;
-    text-transform: none;
+    display: none;
   }
+}
 
-  @include media-md {
-    padding: 120px 0;
+.header-background-slides {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding:0;
+  margin: 0;
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  li {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  .image {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .image-1 .image {
+    opacity: 1;
+    animation: imageAnimation 20s linear infinite 0s;
+  }
+  .image-2 .image {
+    animation: imageAnimation 20s linear infinite 10s;
+  }
+  .photo-credit {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    max-width: $grid-max;
+    .credit {
+      left: 100%;
+      z-index: 0;
+      opacity: 0;
+      bottom: 44px;
+      position: absolute;
+      margin-left: -20px;
+      transform-origin: left top;
+      transform: rotate(270deg) translateY(-100%);
+      transition: opacity .2s ease-out;
+      transition-delay: 0s;
+      &::before {
+        color: $rose;
+        display: inline-block;
+        content: 'Photograph by Matt Ward';
+        white-space: nowrap;
+        font-size: 8px;
+        text-transform: uppercase;
+      }
+    }
+
+    @include media-sm {
+      .credit {
+        margin-left: -$global-margin;
+      }
+    }
+  }
+}
+
+body.nav-active {
+  .photo-credit {
+    .credit {
+      opacity: 1;
+      transition-delay: .5s;
+    }
+  }
+}
+
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0;
+    transform: scale(1);
+    animation-timing-function: ease-in; 
+  }
+  50% { 
+    opacity: 1; 
+    animation-timing-function: ease-out; 
+  }
+  66% { 
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+}
+
+body[data-bodyClass=ch1] {
+  .header-background-slides {
+    .image-1 {
+      .image {
+        background-image: url('../images/header-backgrounds/ProChoice-Flickr-ProgressOhio.jpg');
+      }
+      .credit::before {
+        content: 'Photograph by Progress Ohio';
+      }
+    }
+    .image-2 {
+      .image {
+        background-image: url('../images/header-backgrounds/ProLife-Flickr-AmericanLifeLeague.jpg');
+      }
+      .credit::before {
+        content: 'Photograph by American Life League';
+      }
+    }
+  }
+}
+
+body[data-bodyClass=ch2] {
+  .header-background-slides {
+    .image-1 {
+      .image {
+        background-image: url('../images/header-backgrounds/ProChoice-Flickr-CharlotteCooper.jpg');
+      }
+      .credit::before {
+        content: 'Photograph by Charlotte Cooper';
+      }
+    }
+    .image-2 {
+      .image {
+        background-image: url('../images/header-backgrounds/ProLife-Flickr-ElvertBarnes.jpg');
+      }
+      .credit::before {
+        content: 'Photograph by Elvert Barnes';
+      }
+    }
+  }
+}
+
+body[data-bodyClass=ch3] {
+  .header-background-slides {
+    .image-1 {
+      .image {
+        background-image: url('../images/header-backgrounds/ProChoice-Flickr-DebraSweet.jpg');
+      }
+      .credit::before {
+        content: 'Photograph by Debra Sweet';
+      }
+    }
+    .image-2 {
+      .image {
+        background-image: url('../images/header-backgrounds/ProLife-Flickr-ElvertBarnes02.jpg');
+      }
+      .credit::before {
+        content: 'Photograph by Elvert Barnes';
+      }
+    }
+  }
+}
+
+body[data-bodyClass=ch4] {
+  .header-background-slides {
+    .image-1 {
+      .image {
+        background-image: url('../images/header-backgrounds/ProChoice-Flickr-AnnHarkness.jpg');
+      }
+      .credit::before {
+        content: 'Photograph by Ann Harkness';
+      }
+    }
+    .image-2 {
+      .image {
+        background-image: url('../images/header-backgrounds/ProLife-Flickr-AmericanLifeLeague02.jpg');
+      }
+      .credit::before {
+        content: 'Photograph by American Life League';
+      }
+    }
   }
 }

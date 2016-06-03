@@ -15,7 +15,15 @@ $font-bold: "freight-big-pro", serif;
 }
 .font-bold {
   font-weight: 700;
+  letter-spacing: .024em;
   font-family: $font-bold;
+}
+
+.small-caps {
+  font-variant-caps: small-caps;
+  -moz-font-feature-settings: "smcp";
+  -webkit-font-feature-settings: "smcp";
+  font-feature-settings: "smcp";
 }
 
 // Typekit Fout styles

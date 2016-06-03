@@ -1,11 +1,211 @@
 // Nav
 
+$mobileNavHeight: 132px;
+$navHeight: 122px;
+
 .site-nav {
-  ul {
+  overflow: hidden;
+  position: relative;
+  height: $mobileNavHeight;
+  will-change: height, top;
+  transition: height .3s $cubic-bezier .25s, top .3s  $cubic-bezier .25s, transform .25s ease-out .25s;
+
+  @include media-sm {
+    height: $navHeight;
+  }
+
+  &.sub-nav-active {
+    height: 85vh;
+    will-change: height, top;
+    transition: top .3s  $cubic-bezier, height .3s $cubic-bezier;
+    transition-delay: 0;
+  }
+
+  ul.nav-list {
     margin: 0;
-    padding: 0;
-    li {
+    width: 100%;
+    padding: 0 0 20px;
+    position: relative;
+    @include clearfix();
+    height: $mobileNavHeight;
+    border-bottom: 1px solid $brand-secondary;
+    
+    .wrap {
+      height: $mobileNavHeight;
+    }
+
+    @include media-sm {
+      height: $navHeight;
+      .wrap {
+        height: $navHeight;
+      }
+    }
+
+    > div > li {
       list-style: none;
+      @extend .font-display;
+
+      &.-active {
+        > a {
+          opacity: 1;
+          &::after {
+            height: 48px;
+            bottom: -32px;
+          }
+          &:hover {
+            &::after {
+              height: 56px;
+            }
+          }
+        }
+        .sub-nav {
+          opacity: 1;
+          pointer-events: auto;
+          transform: translateY(0);
+        }
+      }
+
+      > a {
+        opacity: .5;
+        height: 100%;
+        display: block;
+        padding-top: 10px;
+        position: relative;
+        text-decoration: none;
+        transition: padding .2s ease-out, opacity .3s ease-out;
+        &:hover {
+          opacity: 1;
+        }
+
+        .chapter-numeral {
+          color: $rose;
+          font-size: 12px;
+          margin-right: 17px;
+          @extend .font-bold;
+          @extend .small-caps;
+          display: inline-block;
+
+          &::after {
+            content: '';
+            width: 6px;
+            height: 1px;
+            margin: 6px 0;
+            display: none;
+            background: $rose;
+          }
+
+          @include media-sm {
+            display: block;
+            margin-right: 0;
+            &::after {
+              display: block;
+            }
+          }
+        }
+
+        @include media-sm {
+          max-width: 150px;
+
+          &:hover {
+            padding-top: 0;
+            &::after {
+              height: 24px;
+            }
+          }
+
+          &::after {
+            left: 0;
+            bottom: 0;
+            width: 1px;
+            content: '';
+            height: 16px;
+            position: absolute;
+            background: $brand-secondary;
+            transition: height .2s ease-out, bottom .2s ease-out;
+          }
+        }
+      }
+    }
+
+    li.un-hover a {
+      opacity: .5;
+    }
+
+    @include media-sm {
+
+      > div > li {
+        width: 25%;
+        float: left;
+        height: 100%;
+        font-size: 24px;
+      }
     }
   }
+
+  .sub-nav {
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    overflow: auto;
+    position: absolute;
+    pointer-events: none;
+    transform: translateY(100%);
+    padding: $global-mobile-margin;
+    height: calc(85vh - #{$mobileNavHeight});
+    transition: transform .3s $cubic-bezier, opacity .2s ease-out;
+    transition-delay: .2s;
+    li {
+      width: 100%;
+      display: block;
+      line-height: 1;
+      font-size: 20px;
+      @extend .font-bold;
+      position: relative;
+      padding-left: 44px;
+      margin-bottom: .5em;
+      text-transform: none;
+      .chapter-numeral {
+        left: 0;
+        color: $rose;
+        position: absolute;
+        @extend .font-bold;
+        display: inline-block;
+      }
+    }
+    a {
+      text-decoration: none;
+      transition: opacity .3s ease-out;
+    }
+
+    @include media-sm {
+      padding: $global-margin;
+      height: calc(85vh - #{$navHeight});
+
+      li {
+        font-size: 32px;
+        padding-left: $global-margin;
+      }
+    }
+  }
+}
+
+// Active classes
+.active-page {
+  opacity: 1;
+  &:hover {
+    &::after {
+      height: 56px;
+    }
+  }
+  &::after {
+    height: 48px;
+    bottom: -32px;
+  }
+}
+
+body[data-bodyClass=ch1] .site-nav a[href*=ch1],
+body[data-bodyClass=ch2] .site-nav a[href*=ch2],
+body[data-bodyClass=ch3] .site-nav a[href*=ch3],
+body[data-bodyClass=ch4] .site-nav a[href*=ch4] {
+  @extend .active-page;
 }

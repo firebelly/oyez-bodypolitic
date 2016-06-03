@@ -181,3 +181,9 @@
     -webkit-animation-name: moveOutToLeft;
     animation-name: moveOutToLeft;
 }
+
+body.is-exiting {
+    .site-header::before {
+        background: rgba($brand-primary, 1);
+    }
+}

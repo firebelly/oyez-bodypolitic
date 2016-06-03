@@ -1,0 +1,99 @@
+// Chapter Nav
+
+$containerPadding: 30px;
+
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid $brand-secondary;
+
+  .prev-container,
+  .next-container {
+    max-width: 33.3333%;
+    flex-basis: 33.3333%;
+    padding-top: $containerPadding;
+  }
+  .prev-container {
+    padding-right: $containerPadding;
+    border-right: 1px solid $brand-secondary;
+  }
+  .next-container {
+    padding-left: $containerPadding;
+    border-left: 1px solid $brand-secondary;
+  }
+
+  a {
+    display: block;
+    line-height: 1;
+    position: relative;
+    text-decoration: none;
+    &:hover {
+      .icon-arrow-left {
+        transform: translateX(-20px);
+      }
+      .icon-arrow-right {
+        transform: translateX(20px);
+      }
+    }
+  }
+
+  .label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 6px;
+    position: relative;
+    @extend .font-bold;
+    @extend .small-caps;
+    padding-bottom: 12px;
+    letter-spacing: .096em;
+    text-transform: lowercase;
+    &::after {
+      bottom: 0;
+      width: 3px;
+      height: 1px;
+      content: '';
+      display: block;
+      position: absolute;
+      background: $brand-primary;
+    }
+  }
+
+  .title {
+    font-size: 16px;
+    @extend .font-bold;
+    letter-spacing: .024em;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    display: none;
+    position: absolute;
+    fill: $brand-primary;
+    transition: transform .2s ease-out;
+    @include media-sm {
+      display: block;
+    }
+  }
+
+  .prev {
+    .icon {
+      right: 100%;
+      transform: translateX(-16px);
+    }
+  }
+
+  .next {
+    text-align: right;
+    .label::after {
+      right: 0;
+    }
+    .title {
+      text-align: right;
+    }
+    .icon {
+      left: 100%;
+      transform: translateX(16px);
+    }
+  }
+}

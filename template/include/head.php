@@ -35,9 +35,16 @@
   <body data-bodyClass="<?=basename($_SERVER['PHP_SELF'],'.php')?>">
     <header class="site-header" role="banner">
       <div class="wrap">
-        <h1><a class="ajax" href="/" data-target="0">Body<br> Politic</a></h1>
-        <h2 class="subhead">Subhead TK ultricies imperdiet quam ut laoreet. Vivamus ex ipsum, volutpat.</h2>
-        <?php include('template/include/nav.php'); ?>
+        <div class="site-title">        
+          <h1><a class="ajax home-link" href="/" data-target="0">Body Politic</a></h1>
+          <h2 class="subhead">Subhead TK ultricies imperdiet quam ut laoreet. Vivamus ex ipsum, volutpat.</h2>
+        </div>
+        <?php include('template/include/resources-nav.php'); ?>
       </div>
+      <?php include('template/include/nav.php'); ?>
+      <ul class="header-background-slides">
+        <li class="image-1"><span class="image"></span><div class="photo-credit"><span class="credit"></span></div></li>
+        <li class="image-2"><span class="image"></span><div class="photo-credit"><span class="credit"></span></div></li>
+      </ul>
     </header>
     <main id="site-container" class="site-main" role="main" data-transition="fade">

@@ -10,20 +10,22 @@ html {
 body {
   font-size: 16px;
   @extend .font-body;
-  color: $brand-secondary;
-  background: $brand-primary;
+  background: $white;
+  color: $brand-primary;
+  @include media-md {
+    padding-top: 242px;
+  }
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3,
+h4, h5, h6 {
   font-weight: normal;
-  @extend .font-display;
 }
 
 p {
   font-size: 1em;
-  line-height: 1.25em;
+  font-weight: 200;
+  line-height: 1.5em;
 }
 
 a {
@@ -38,6 +40,23 @@ img {
 	max-width: 100%;
 }
 
+// Utility classes
+.visually-hidden { // http://a11yproject.com/posts/how-to-hide-content/
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+} 
+body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; }
+.hidden { // http://a11yproject.com/posts/how-to-hide-content/
+  display: none;
+  visibility: hidden;
+}
+
 .global-overlay {
   top: 0;
   left: 0;
@@ -45,9 +64,9 @@ img {
   bottom: 0;
   opacity: 0;
   z-index: 100;
-  position: fixed;
+  position: absolute;
+  background: rgba($white, .9);
   transition: opacity .2s ease-out;
-  background: rgba($brand-secondary, .9);
   &.-active {
     opacity: 1;
   }
@@ -56,11 +75,33 @@ img {
 .wrap {
   width: 100%;
   margin: 0 auto;
-  padding: 0 10px;
-  max-width: 960px;
   position: relative;
   @include clearfix();
-  @include media-md {
-    // set breakpoints on a per-module basis when possible
+  max-width: $grid-max;
+  padding: 0 #{$global-margin / 2};
+  @include media-sm {
+  padding: 0 $global-margin;
+  }
+}
+
+.site-main {
+  opacity: 1;
+  background: $white;
+  position: relative;
+  transition: opacity 1s ease-out;
+
+  &.hash-loading {
+    opacity: 0;
+  }
+
+  .sceneElement {
+    padding: 0;
+    transition: padding .5s ease-out;
+    @include media-md {
+      padding: $global-margin 0 0;
+    }
+    &:empty {
+      padding: 0;
+    }
   }
 }

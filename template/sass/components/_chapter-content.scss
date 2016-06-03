@@ -1,0 +1,260 @@
+// Chapter Content pages
+
+.page-content {
+
+  @include media-md {
+    padding-right: 50%;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 1em;
+    @extend .font-bold;
+    position: relative;
+    margin: 0 0 #{$global-margin / 2};
+
+    .sub-chapter-numeral {
+      right: auto;
+      color: $rose;
+      display: block;
+      position: relative;
+      margin-bottom: .5em;
+      padding-bottom: .5em;
+      &::after {
+        left: 0;
+        bottom: 0;
+        width: .5em;
+        height: 1px;
+        content: '';
+        background: $rose;
+        position: absolute;
+      }
+    }
+
+    @include media-md {
+      font-size: 32px;
+    }
+
+    @include media-lg {
+
+      .sub-chapter-numeral {
+        right: 100%;
+        position: absolute;
+        padding-right: 20px;
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  h4 {
+    color: $rose;
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 1.333333333;
+    text-transform: lowercase;
+    @extend .small-caps;
+  }
+
+  h5 {
+    margin-top: 0;
+    font-size: 24px;
+    @extend .font-display;
+    color: $brand-primary;
+  }
+
+  p {
+    margin-bottom: 0;
+    margin-top: #{$global-margin / 2};
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    li {
+      line-height: 1.5em;
+      margin-bottom: .5em;
+    }
+  }
+  ul {
+    li {
+      list-style: none;
+      position: relative;
+      &::before {
+        left: -20px;
+        color: $rose;
+        content: '¶';
+        position: absolute;
+      }
+    }
+  }
+  ol {
+    counter-reset: item;
+    li {
+      list-style: none;
+      position: relative;
+      &::before {
+        left: -20px;
+        color: $rose;
+        position: absolute;
+        counter-increment: item;
+        content: counters(item, '');
+      }
+    }
+  }
+
+  section {
+    padding: $global-mobile-margin 0;
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    @include media-sm {
+      padding: $global-margin 0;
+    }
+  }
+
+  .video-section {
+    padding: 0;
+
+    video {
+      vertical-align: top;
+    }
+
+    .mejs-controls {
+      bottom: 6px;
+    }
+
+    @include media-sm {
+      padding: 0;
+    }
+
+    .mejs-container {
+      height: auto!important;
+      width: 100%!important;
+      @include media-md {
+        width: 200%!important;
+        height: auto!important;
+      }
+      .mejs-mediaelement {
+        height: auto!important;
+        video {
+          height: auto!important;
+        }
+      }
+    }
+  }
+}
+
+.aside-trigger {
+  cursor: pointer;
+  display: inline;
+  color: $rose;
+  &.first-item {
+    .icon {
+      margin-left: 0;
+      margin-right: 4px;
+    }
+  }
+  &:hover, &:focus {
+    .icon {
+      @extend .pulse;
+      animation-iteration-count: infinite;
+    }
+    .pulse {
+      .icon {
+        animation-iteration-count: 0;
+      }
+    }
+  }
+  .icon {
+    width: 0.75em;
+    height: 0.75em;
+    margin-left: 10px;
+    fill: $rose;
+  }
+}
+
+.aside-wrap {
+  position: relative;
+}
+
+.aside-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  @extend .animated;
+  padding-top: 16px;
+  position: relative;
+  @extend .font-display;
+
+  &.aside_info {
+    padding-left: $global-mobile-margin;
+  }
+
+  .icon {
+    left: 0;
+    fill: $rose;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: $global-mobile-margin;
+  }
+
+  blockquote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .audioplayer {
+    width: 100%;
+    max-width: 100%;
+    .mejs-controls {
+      .mejs-time-rail {
+        .mejs-time-total {
+          width: calc(100% - 40px)!important;
+        }
+        .mejs-time-current {
+          background: rgba(255,255,255,0.7);
+        }
+        .mejs-time-float-corner {
+          background: url('../svgs/marker-pink.svg');
+          background-size: 8px 11px;
+        }
+      }
+    }
+  }
+
+  @include media-md {
+    left: 120%;
+    padding: 0;
+    width: 340px;
+    position: absolute;
+    display: block !important;
+
+    .icon { 
+      top: 0;
+      left: -34px;
+    }
+
+    &.active {
+      animation-duration: 0.5s;
+      animation-name: fadeInLeftHide;
+    }
+    &.inactive {
+      animation-duration: 0.5s;
+      animation-name: fadeOutLeftHide;
+    }
+    &.aside_info {
+      &:before {
+        top: 8px;
+      }
+    }
+  }
+}

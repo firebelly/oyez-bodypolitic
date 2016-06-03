@@ -5,3 +5,67 @@
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+
+.animated {
+  animation-duration: 1s;
+  transform: translateZ(0);
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInLeftHide {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(-20%, 0, 0);
+  }
+
+  1% {
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeftHide {
+  animation-name: fadeInLeftHide;
+}
+
+@keyframes fadeOutLeftHide {
+  0% {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(-20%, 0, 0);
+  }
+}
+
+.fadeOutLeftHide {
+  animation-name: fadeOutLeftHide;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  @extend .animated;
+  animation-name: pulse;
+}

@@ -1,0 +1,13 @@
+// Chapter Specific Mods
+
+body[data-bodyClass=ch1] {
+  .chapter-nav {
+    justify-content: flex-end;
+  }
+}
+
+body[data-bodyClass=ch4] {
+  .chapter-nav {
+    justify-content: flex-start;
+  }
+}

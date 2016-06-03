@@ -7,14 +7,12 @@
         <div class="affiliates">
           <h3 class="oyez logo">
             <a href="http://www.kentlaw.iit.edu/" target="_blank">
-              Oyez | Chicago Kent College of Law
-              <span class="logo_h"></span>
+              <img src="template/images/oyez.png" alt="Oyez | Chicago Kent College of Law">
             </a>
           </h3>
           <h3 class="iscotus logo">
             <a href="http://www.iscotus.org/" target="_blank">
-              Iscotus | Chicago Kent College of Law
-              <span class="logo_h"></span>
+              <img src="template/images/ISCOTUS.png" alt="">
             </a>
           </h3>
         </div>
@@ -22,6 +20,8 @@
       </div>
 
     </footer>
+
+    <?php include('template/include/resources.php'); ?>
 
     <script src="template/js/build/site.js"></script>
     <script type="text/javascript">// Google Analytics
