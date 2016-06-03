@@ -118,9 +118,6 @@
       color: $rose;
     }
 
-    @include media-sm {
-      padding: $global-margin 0;
-    }
   }
 
   .video-section {
@@ -156,9 +153,10 @@
 }
 
 .aside-trigger {
+  color: $rose;
   cursor: pointer;
   display: inline;
-  color: $rose;
+  white-space: nowrap;
   &.first-item {
     .icon {
       margin-left: 0;

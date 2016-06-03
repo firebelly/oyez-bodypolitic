@@ -8,7 +8,7 @@ $navHeight: 122px;
   position: relative;
   height: $mobileNavHeight;
   will-change: height, top;
-  transition: height .3s $cubic-bezier .25s, top .3s  $cubic-bezier .25s, transform .25s ease-out .25s;
+  transition: height .3s $cubic-bezier, top .3s  $cubic-bezier, transform .25s ease-out;
 
   @include media-sm {
     height: $navHeight;
@@ -107,7 +107,6 @@ $navHeight: 122px;
           max-width: 150px;
 
           &:hover {
-            padding-top: 0;
             &::after {
               height: 24px;
             }
@@ -137,6 +136,7 @@ $navHeight: 122px;
         width: 25%;
         float: left;
         height: 100%;
+        line-height: 1;
         font-size: 24px;
       }
     }
