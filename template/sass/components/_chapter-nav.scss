@@ -9,13 +9,19 @@ $containerPadding: 30px;
 
   .prev-container,
   .next-container {
-    max-width: 33.3333%;
-    flex-basis: 33.3333%;
+    max-width: 50%;
+    flex-basis: 50%;
     padding-top: $containerPadding;
+    @include media-sm {
+      max-width: 33.3333%;
+      flex-basis: 33.3333%;
+    }
   }
   .prev-container {
     padding-right: $containerPadding;
-    border-right: 1px solid $brand-secondary;
+    @include media-sm {
+      border-right: 1px solid $brand-secondary;
+    }
   }
   .next-container {
     padding-left: $containerPadding;

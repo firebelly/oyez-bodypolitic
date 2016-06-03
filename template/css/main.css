@@ -2315,15 +2315,28 @@ body[data-bodyClass=ch4] .site-nav a[href*=ch4]::after {
 }
 .chapter-nav .prev-container,
 .chapter-nav .next-container {
-  max-width: 33.3333%;
-  -webkit-flex-basis: 33.3333%;
-      -ms-flex-preferred-size: 33.3333%;
-          flex-basis: 33.3333%;
+  max-width: 50%;
+  -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
   padding-top: 30px;
+}
+@media screen and (min-width: 700px) {
+  .chapter-nav .prev-container,
+  .chapter-nav .next-container {
+    max-width: 33.3333%;
+    -webkit-flex-basis: 33.3333%;
+        -ms-flex-preferred-size: 33.3333%;
+            flex-basis: 33.3333%;
+  }
 }
 .chapter-nav .prev-container {
   padding-right: 30px;
-  border-right: 1px solid #ffc378;
+}
+@media screen and (min-width: 700px) {
+  .chapter-nav .prev-container {
+    border-right: 1px solid #ffc378;
+  }
 }
 .chapter-nav .next-container {
   padding-left: 30px;
@@ -2828,6 +2841,9 @@ body[data-bodyClass=ch4] .chapter-nav {
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+body[data-bodyClass=ch4] .prev-container {
+  border-right: 1px solid #ffc378;
 }
 
 .site-footer {

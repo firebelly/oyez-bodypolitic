@@ -10,4 +10,7 @@ body[data-bodyClass=ch4] {
   .chapter-nav {
     justify-content: flex-start;
   }
+  .prev-container {
+      border-right: 1px solid $brand-secondary;
+  }
 }
