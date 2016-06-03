@@ -384,7 +384,7 @@ table {
   font-family: "freight-text-pro", serif;
 }
 
-.font-bold, .resources-list h4, .site-nav ul.nav-list > div > li > a .chapter-numeral, .site-nav .sub-nav li, .site-nav .sub-nav li .chapter-numeral, .chapter-nav .label, .chapter-nav .title, .page-content h3, body[data-bodyClass=index] .site-header h2, body[data-bodyClass=index].nav-active .site-header h2 {
+.font-bold, .resources-list h4, .site-nav ul.nav-list > div > li > a .chapter-numeral, .site-nav .sub-nav li, .site-nav .sub-nav li .chapter-numeral, .chapter-nav .label, .chapter-nav .title, .page-content h3, .aside-container blockquote cite, body[data-bodyClass=index] .site-header h2, body[data-bodyClass=index].nav-active .site-header h2 {
   font-weight: 700;
   letter-spacing: .024em;
   font-family: "freight-big-pro", serif;
@@ -2659,6 +2659,9 @@ body.is-exiting .site-header::before {
 .page-content p:first-of-type {
   margin-top: 0;
 }
+.page-content a {
+  color: #ff9182;
+}
 .page-content ul,
 .page-content ol {
   margin: 0;
@@ -2771,8 +2774,24 @@ body.is-exiting .site-header::before {
   padding-top: 16px;
   position: relative;
 }
+.aside-container p,
+.aside-container blockquote {
+  line-height: 1;
+}
 .aside-container.aside_info {
   padding-left: 32px;
+}
+@media screen and (min-width: 1000px) {
+  .aside-container.aside_info {
+    padding-left: 0;
+  }
+}
+.aside-container.aside_audio {
+  padding-bottom: 32px;
+}
+.aside-container.aside_audio blockquote {
+  margin-top: 1em;
+  padding-left: 40px;
 }
 .aside-container .icon {
   left: 0;
@@ -2780,11 +2799,13 @@ body.is-exiting .site-header::before {
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 32px;
 }
 .aside-container blockquote {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
+}
+.aside-container blockquote cite {
+  font-style: normal;
+  text-transform: none;
 }
 .aside-container .audioplayer {
   width: 100%;

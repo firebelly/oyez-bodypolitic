@@ -72,6 +72,10 @@
     }
   }
 
+  a {
+    color: $rose;
+  }
+
   ul,
   ol {
     margin: 0;
@@ -194,8 +198,24 @@
   position: relative;
   @extend .font-display;
 
+  p,
+  blockquote {
+    line-height: 1;
+  }
+
   &.aside_info {
     padding-left: $global-mobile-margin;
+    @include media-md {
+      padding-left: 0;
+    }
+  }
+
+  &.aside_audio {
+    padding-bottom: $global-mobile-margin;
+    blockquote {
+      margin-top: 1em;
+      padding-left: 40px;
+    }
   }
 
   .icon {
@@ -204,12 +224,16 @@
     width: 24px;
     height: 24px;
     position: absolute;
-    top: $global-mobile-margin;
+    // top: $global-mobile-margin;
   }
 
   blockquote {
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
+    cite {
+      font-style: normal;
+      @extend .font-bold;
+      text-transform: none;
+    }
   }
 
   .audioplayer {
