@@ -10,7 +10,7 @@
     <link rel="canonical" href="http://projects.oyez.org/body-politic">
     <meta name="description" content="A deep dive look at the Supreme Court and abortion law.">
     <meta property="og:title" content="Oyez - Body Politic" />
-    <meta property="og:image" content="http://oyez-body-politic.firebelly.co/template/images/oyez-body-politic.jpg" />
+    <meta property="og:image" content="http://oyez-bodypolitic.firebelly.co/template/images/oyez-body-politic.jpg" />
     <meta property="og:url" content="http://projects.oyez.org/body-politic" />
     <meta property="og:description" content="A deep dive look at the Supreme Court and abortion law." />
     <link rel="stylesheet" href="template/css/main.min.css">
