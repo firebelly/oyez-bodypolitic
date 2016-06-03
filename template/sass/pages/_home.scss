@@ -32,11 +32,22 @@ body[data-bodyClass=index] {
 
     h2 {
       display: block;
+      line-height: 1;
       font-size: 16px;
       max-width: 300px;
       @extend .font-bold;
+      position: relative;
       text-transform: none;
-      margin: 0 0 $global-mobile-margin;
+      margin: 0 0 $global-mobile-margin 4px;
+      &::before {
+        left: 0;
+        top: -4px;
+        width: 3px;
+        height: 1px;
+        content: '';
+        background: $rose;
+        position: absolute;
+      }
     }
 
     @include media-sm {  

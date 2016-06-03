@@ -2930,10 +2930,21 @@ body[data-bodyClass=index] .site-header h1 br {
 }
 body[data-bodyClass=index] .site-header h2 {
   display: block;
+  line-height: 1;
   font-size: 16px;
   max-width: 300px;
+  position: relative;
   text-transform: none;
-  margin: 0 0 32px;
+  margin: 0 0 32px 4px;
+}
+body[data-bodyClass=index] .site-header h2::before {
+  left: 0;
+  top: -4px;
+  width: 3px;
+  height: 1px;
+  content: '';
+  background: #ff9182;
+  position: absolute;
 }
 @media screen and (min-width: 700px) {
   body[data-bodyClass=index] .site-header h1 {
