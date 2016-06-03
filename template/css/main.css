@@ -2978,6 +2978,8 @@ body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list .wrap
 }
 body[data-bodyClass=index].nav-active .site-nav.sub-nav-active .sub-nav {
   padding-top: 0;
+  height: calc(70vh - 240px);
+  padding-bottom: 32px;
 }
 @media screen and (min-width: 700px) {
   body[data-bodyClass=index].nav-active .site-nav.sub-nav-active {
@@ -2987,6 +2989,7 @@ body[data-bodyClass=index].nav-active .site-nav.sub-nav-active .sub-nav {
     height: 122px;
   }
   body[data-bodyClass=index].nav-active .site-nav.sub-nav-active .sub-nav {
+    height: calc(70vh - 122px);
     padding-top: 64px;
   }
 }

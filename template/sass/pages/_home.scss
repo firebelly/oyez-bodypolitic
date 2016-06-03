@@ -117,6 +117,8 @@ body[data-bodyClass=index] {
 
         .sub-nav {
           padding-top: 0;
+          height: calc(70vh - 240px);
+          padding-bottom: $global-mobile-margin;
         }
 
           @include media-sm {
@@ -126,6 +128,7 @@ body[data-bodyClass=index] {
             }
 
             .sub-nav {
+              height: calc(70vh - 122px);
               padding-top: $global-margin;
             }
           }
