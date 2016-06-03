@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Oyez - Body Politic</title>
-    <link rel="canonical" href="">
-    <meta name="description" content="">
-    <meta property="og:title" content="" />
+    <link rel="canonical" href="http://projects.oyez.org/body-politic">
+    <meta name="description" content="A deep dive look at the Supreme Court and abortion law.">
+    <meta property="og:title" content="Oyez - Body Politic" />
     <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:description" content="" />
+    <meta property="og:url" content="http://projects.oyez.org/body-politic" />
+    <meta property="og:description" content="A deep dive look at the Supreme Court and abortion law." />
     <link rel="stylesheet" href="template/css/main.min.css">
     <link type="text/plain" rel="author" href="humans.txt">
     <link rel="shortcut icon" type="image/ico" href="template/images/favicon.png">
