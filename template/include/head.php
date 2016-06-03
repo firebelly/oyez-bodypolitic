@@ -37,7 +37,7 @@
       <div class="wrap">
         <div class="site-title">        
           <h1><a class="ajax home-link" href="/" data-target="0">Body Politic</a></h1>
-          <h2 class="subhead">Subhead TK ultricies imperdiet quam ut laoreet. Vivamus ex ipsum, volutpat.</h2>
+          <h2 class="subhead">The Supreme Court and abortion law.</h2>
         </div>
         <?php include('template/include/resources-nav.php'); ?>
       </div>
