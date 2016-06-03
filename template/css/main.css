@@ -2659,9 +2659,6 @@ body.is-exiting .site-header::before {
 .page-content p:first-of-type {
   margin-top: 0;
 }
-.page-content a {
-  color: #ff9182;
-}
 .page-content ul,
 .page-content ol {
   margin: 0;
@@ -2701,6 +2698,9 @@ body.is-exiting .site-header::before {
 }
 .page-content section:first-of-type {
   margin-top: 0;
+}
+.page-content section a {
+  color: #ff9182;
 }
 @media screen and (min-width: 700px) {
   .page-content section {
