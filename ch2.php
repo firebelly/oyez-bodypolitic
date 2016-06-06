@@ -59,7 +59,7 @@ if($_GET['type']!='ajax'){
 
         </div>
 
-        <p>An interesting point that came up in arguments concerned “undue burden”, which had been briefly mentioned in a previous opinion, <a href="https://www.google.com/url?q=https://www.oyez.org/cases/1982/81-746&sa=D&ust=1465220495383000&usg=AFQjCNGrAT3NF-_18-BtQR3iQ20hZhQs2g" target="_blank">City of Akron v. Akron Center for Reproductive Health</a> (1983). The phrase referred to measures meant to discourage abortions, and to what degree these measures would be considered overly restrictive. Justice John Paul Stevens asked whether the burden counted quantitatively, meaning the number of people affected, or qualitatively, meaning the level of burden on one person specifically. The state argued it was quantitative, whereas Planned Parenthood argued for qualitative.</p>
+        <p>An interesting point that came up in arguments concerned “undue burden”, which had been briefly mentioned in a previous opinion, <a href="https://www.oyez.org/cases/1982/81-746" target="_blank">City of Akron v. Akron Center for Reproductive Health</a> (1983). The phrase referred to measures meant to discourage abortions, and to what degree these measures would be considered overly restrictive. Justice John Paul Stevens asked whether the burden counted quantitatively, meaning the number of people affected, or qualitatively, meaning the level of burden on one person specifically. The state argued it was quantitative, whereas Planned Parenthood argued for qualitative.</p>
 
       </section>
 
