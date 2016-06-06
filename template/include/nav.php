@@ -15,6 +15,7 @@
           <li><a href="/ch1#ch1-9" class="ajax"><span class="chapter-numeral">1.9</span> What did the decision say?</a></li>
           <li><a href="/ch1#ch1-10" class="ajax"><span class="chapter-numeral">1.10</span> What did the dissents say?</a></li>
           <li><a href="/ch1#ch1-11" class="ajax"><span class="chapter-numeral">1.11</span> What happened next?</a></li>
+          <li><a href="/ch1#ch1-quicktake" class="ajax">Quick Take</a></li>
         </ul>
       </li>
       <li>
@@ -28,6 +29,7 @@
           <li><a href="/ch2#ch2-6" class="ajax"><span class="chapter-numeral">2.6</span> What did the decision say?</a></li>
           <li><a href="/ch2#ch2-7" class="ajax"><span class="chapter-numeral">2.7</span> What did the dissent say?</a></li>
           <li><a href="/ch2#ch2-8" class="ajax"><span class="chapter-numeral">2.8</span> What happened next?</a></li>
+          <li><a href="/ch2#ch2-quicktake" class="ajax">Quick Take</a></li>
         </ul>
       </li>
       <li>
@@ -42,6 +44,7 @@
           <li><a href="/ch3#ch3-7" class="ajax"><span class="chapter-numeral">3.7</span> What did the decision say?</a></li>
           <li><a href="/ch3#ch3-8" class="ajax"><span class="chapter-numeral">3.8</span> What did the dissent say?</a></li>
           <li><a href="/ch3#ch3-9" class="ajax"><span class="chapter-numeral">3.9</span> What happened next?</a></li>
+          <li><a href="/ch3#ch3-quicktake" class="ajax">Quick Take</a></li>
         </ul>
       </li>
       <li>
@@ -54,6 +57,7 @@
           <li><a href="/ch4#ch4-5" class="ajax"><span class="chapter-numeral">4.5</span> What happened during oral arguments?</a></li>
           <li><a href="/ch4#ch4-6" class="ajax"><span class="chapter-numeral">4.6</span> What could the decision say?</a></li>
           <li><a href="/ch4#ch4-7" class="ajax"><span class="chapter-numeral">4.7</span> What did the dissent say?</a></li>
+          <li><a href="/ch4#ch4-quicktake" class="ajax">Quick Take</a></li>
         </ul>
       </li>
     </div>

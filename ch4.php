@@ -108,9 +108,8 @@ if($_GET['type']!='ajax'){
         </video>
       </section>
   
-      <section>
+      <section id="ch4-quicktake">
         <h4>Quick take:</h4>
-        <p>What do most people not know about Whole Woman’s Health?</p>
         <ul>
           <li>This is the first time a major abortion case, or reproductive rights case at all, has gone before a bench with three female justices. Most of the recent cases had had only one, while Justices Sandra Day O’Connor and Ruth Bader Ginsburg were both on the bench for Carhart I.</li>
           <li>A law similar to the Texas one was passed recently in Louisiana, and challengers appealed to the Supreme Court. After the Court heard arguments in Whole Woman’s Health, the justices put a stay on the Louisiana law and thus blocked its enforcement. While the Court’s inner workings are shrouded in mystery, this could be a sign that the Texas law may not stand as it is.</li>

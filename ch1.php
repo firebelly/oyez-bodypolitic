@@ -259,10 +259,9 @@ if($_GET['type']!='ajax'){
         </video>
       </section>
 
-      <section>
+      <section id="ch1-quicktake">
         <h4>Quick take:</h4>
 
-        <h5>What do most people not know about Roe v. Wade?</h5>
         <ul>
           <li>Although Roe v. Wade has not been overturned, it’s not the law of the land anymore. Later decisions at the Supreme Court and legislation passed in Congress have shifted its guarantees and protections.</li>
           <li>Roe v. Wade’s opinion focuses on the protection of doctors’ rights much more than it does on women’s rights.</li>

@@ -142,10 +142,9 @@ if($_GET['type']!='ajax'){
 
       </section>
 
-      <section>
+      <section id="ch3-quicktake">
         <h4>Quick take:</h4>
 
-        <p>What do most people not know about Carhart?</p>
         <ul>
           <li>The decisions in the Carhart cases showed a lack of teeth in their decision in Planned Parenthood v. Casey. In essence, “undue burden” was a standard that was proving difficult to define.</li>
           <li>One argument as to the change in doctrine between Casey and the Carhart cases - or even the difference between the Carhart cases - is that it was due more to the makeup of the Court rather than a shift in public opinion.</li>

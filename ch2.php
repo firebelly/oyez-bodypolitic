@@ -152,10 +152,9 @@ if($_GET['type']!='ajax'){
         </video>
       </section>
 
-      <section>
+      <section id="ch2-quicktake">
         <h4>Quick take:</h4>
 
-        <p>What do most people not know about Planned Parenthood v. Casey?</p>
         <ul>
           <li>This case is actually more in effect in terms of federal abortion law than Roe v. Wade is. It established what standards abortion laws are judged by, and the viability test replaced the trimester standard.</li>
           <li>The justices originally voted in conference to overturn Roe v. Wade, and Chief Justice Rehnquist was going to write the opinion. Justice Harry Blackmun had already begun writing his dissent when Justices O’Connor, Kennedy, and Souter formed their coalition to find a middle ground and preserve Roe while tightening regulations.</li>
