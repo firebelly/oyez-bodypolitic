@@ -121,7 +121,6 @@
   }
 
   .video-section {
-    padding: 0;
 
     video {
       vertical-align: top;
@@ -129,10 +128,6 @@
 
     .mejs-controls {
       bottom: 6px;
-    }
-
-    @include media-sm {
-      padding: 0;
     }
 
     .mejs-container {

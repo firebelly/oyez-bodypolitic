@@ -2698,19 +2698,11 @@ body.is-exiting .site-header::before {
 .page-content section a {
   color: #ff9182;
 }
-.page-content .video-section {
-  padding: 0;
-}
 .page-content .video-section video {
   vertical-align: top;
 }
 .page-content .video-section .mejs-controls {
   bottom: 6px;
-}
-@media screen and (min-width: 700px) {
-  .page-content .video-section {
-    padding: 0;
-  }
 }
 .page-content .video-section .mejs-container {
   height: auto !important;

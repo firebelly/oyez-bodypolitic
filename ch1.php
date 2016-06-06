@@ -248,7 +248,7 @@ if($_GET['type']!='ajax'){
 
       </section>
 
-      <section class="video-section">
+      <section id="ch1-video" class="video-section">
         <video class="video" poster="template/video/nahmod.jpg" width="1920px" height="1072px" preload="auto" controls="controls" style="width:100%; height:100%;">
           <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
           <source type="video/mp4" src="template/video/Nahmod.mp4" />

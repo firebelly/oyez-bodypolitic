@@ -6332,7 +6332,16 @@ var Main = (function($) {
         }
 
         $this = $(this);
-        loadContent();
+
+        var currentPage = document.location.pathname.split('/')[1];
+        console.log(currentPage);
+
+        if (newBodyClass === currentPage) {
+          _scrollBody($(pageHash), 250, 0);
+        } else {
+          loadContent();
+        }
+
         e.preventDefault();
     });
     backForwardButtons();
