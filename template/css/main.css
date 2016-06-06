@@ -2733,6 +2733,10 @@ body.is-exiting .site-header::before {
   color: #ff9182;
   cursor: pointer;
   display: inline;
+  white-space: nowrap;
+}
+.aside-trigger.force-wrap {
+  white-space: normal;
 }
 .aside-trigger.first-item .icon {
   margin-left: 0;

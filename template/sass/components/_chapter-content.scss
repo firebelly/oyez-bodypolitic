@@ -156,6 +156,10 @@
   color: $rose;
   cursor: pointer;
   display: inline;
+  white-space: nowrap;
+  &.force-wrap {
+    white-space: normal;
+  }
   &.first-item {
     .icon {
       margin-left: 0;
