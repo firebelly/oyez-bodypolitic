@@ -203,8 +203,9 @@
   position: relative;
   @extend .font-display;
   letter-spacing: .024em;
+  transition: opacity 1s ease-out;
 
-  &.loaded {
+  &.loaded, &.active {
     opacity: 1;
   }
 

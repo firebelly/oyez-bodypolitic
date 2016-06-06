@@ -2773,8 +2773,10 @@ body.is-exiting .site-header::before {
   padding-top: 16px;
   position: relative;
   letter-spacing: .024em;
+  -webkit-transition: opacity 1s ease-out;
+          transition: opacity 1s ease-out;
 }
-.aside-container.loaded {
+.aside-container.loaded, .aside-container.active {
   opacity: 1;
 }
 .aside-container p,
