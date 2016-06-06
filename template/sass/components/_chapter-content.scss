@@ -88,7 +88,7 @@
       &::before {
         left: -20px;
         color: $rose;
-        content: '¶';
+        content: '•';
         position: absolute;
       }
     }
@@ -197,6 +197,7 @@
   opacity: 0;
   width: 100%;
   display: none;
+  font-size: 24px;
   @extend .animated;
   padding-top: 16px;
   position: relative;

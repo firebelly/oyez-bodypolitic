@@ -2672,7 +2672,7 @@ body.is-exiting .site-header::before {
 .page-content ul li::before {
   left: -20px;
   color: #ff9182;
-  content: '¶';
+  content: '•';
   position: absolute;
 }
 .page-content ol {
@@ -2769,6 +2769,7 @@ body.is-exiting .site-header::before {
   opacity: 0;
   width: 100%;
   display: none;
+  font-size: 24px;
   padding-top: 16px;
   position: relative;
   letter-spacing: .024em;

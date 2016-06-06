@@ -33,16 +33,42 @@ if($_GET['type']!='ajax'){
 
         <p>Since its decision in Carhart II, the Supreme Court has shifted. Although Justices John Paul Stevens and David Souter had been appointed by conservative presidents, they usually voted along more traditionally liberal or centrist lines. They each retired during President Obama’s tenure and were replaced by Justices Sonia Sotomayor and Elena Kagan, both consistent members of the Court’s liberal coalition.</p>
 
-        <p>When the case was first granted, there were nine justices on the bench. But just before it was argued, Justice Antonin Scalia unexpectedly passed away at the age of 79. Justice Scalia was a well-known conservative voice on the bench who, in several cases, made clear that he did not view abortion as a constitutional right. His passing left eight justices on the bench: four liberals, three conservatives, and one swing vote - Justice Anthony Kennedy, who had voted to uphold the right to abortion in Casey, but had written the opinion restricting late-term abortions in Carhart II.</p>
+        <div class="aside-wrap">
+          <p>When the case was first granted, there were nine justices on the bench. But just before it was argued, Justice Antonin Scalia unexpectedly passed away at the age of 79. Justice Scalia was a well-known conservative voice on the bench who, in several cases, made clear that he did not view abortion as a constitutional right. His passing left eight justices on the bench: four liberals, three conservatives, and one <span class="aside-trigger first-item" data-aside="swing-vote"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>swing vote</span> - Justice Anthony Kennedy, who had voted to uphold the right to abortion in Casey, but had written the opinion restricting late-term abortions in Carhart II.</p>
+          <aside class="aside-container aside_info inactive" data-aside="swing-vote">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p><a href="http://www.thecrimson.com/article/2015/10/23/justice-kennedy-harvard-law/" target="_blank">Kennedy: The cases swing, I don't.</a></p>
+          </aside>
+        </div>
 
       </section>
 
       <section id="ch4-5">
         <h3><span class="sub-chapter-numeral">4.5</span>What happened during oral arguments?</h3>
 
-        <p>Stephanie Toti, the advocate for the abortion clinics, laid out the case that the law does not actually protect women’s health. Solicitor General Donald Verrilli argued as amicus curiae for the United States on the side of the abortion clinics. He emphasized the need to give weight to the undue burden standard, and that defining it in this case would be crucial moving forward.</p>
+        <div class="aside-wrap">
+          <p>Stephanie Toti, the advocate for the abortion clinics, laid out the case that the law does not actually protect <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>women’s health</span>. Solicitor General Donald Verrilli argued as amicus curiae for the United States on the side of the abortion clinics. He emphasized the need to give weight to the <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>undue burden standard</span>, and that defining it in this case would be crucial moving forward.</p>
+          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-1">
+            <audio class="audioplayer" src="template/audio/Whole_Womans_Health_argument-1.mp3" type="audio/mp3" controls></audio>
+            <blockquote>“The American Medical Association and every other mainstream leading medical association to consider these requirements has -- has concluded that they are not medically justified for a variety of reasons, including that they impose these onerous burdens on medical abortion, which is the earliest form of abortion, and that these burdens are also imposed on early surgical abortion, procedures prior to 16 weeks. And as a result, women are going to be delayed later in pregnancy. And there is evidence in the record that following implementation of the admitting-privileges requirement, in the six-month period following, there was an increase in both the number and the proportion of abortions being performed in the second trimester. So by delaying women's access to abortion, these requirements are actually increasing the risks that women face.”</blockquote>
+          </aside>
+          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-2">
+            <audio class="audioplayer" src="template/audio/Whole_Womans_Health_argument-2.mp3" type="audio/mp3" controls></audio>
+            <blockquote>“And I think, therefore, that if you do find that this law is upheld, what you will be saying is that this right really only exists in theory and not in fact, going forward, and that the commitments that this Court made in Casey will not have been kept.”</blockquote>
+          </aside>
+        </div>
 
-        <p>Scott Keller, the attorney for the state of Texas, was questioned intensely by the three female justices. All three pointed out the potentially overprotective nature of the law. Keller defended the law’s written intent as protecting women’s health. He stressed the need to prevent medical complications and improve facility standards.</p>
+        <div class="aside-wrap">
+          <p>Scott Keller, the attorney for the state of Texas, was questioned intensely by the three female justices. All three pointed out the potentially <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>overprotective</span> nature of the law. Keller defended the law’s written intent as <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-4"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>protecting women’s health</span>. He stressed the need to prevent medical complications and improve facility standards.</p>
+          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-3">
+            <audio class="audioplayer" src="template/audio/Whole_Womans_Health_argument-3.mp3" type="audio/mp3" controls></audio>
+            <blockquote>“But what is the legitimate interest in protecting their health? What evidence is there that under the prior law, the prior law was not sufficiently protective of the women's health? As I understand it, this is one of the lowest-risk procedures, and you give a horrible from Pennsylvania, but absolutely nothing from Texas. As far as we know, this is among the most safe, the least risk procedures, an early-stage abortion. So what was -- what was the problem that the legislature was responding to that it needed to improve the facilities for women's health?”</blockquote>
+          </aside>
+          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-4">
+            <audio class="audioplayer" src="template/audio/Whole_Womans_Health_argument-4.mp3" type="audio/mp3" controls></audio>
+            <blockquote>“To infer that there is an unconstitutional purpose when there is a legitimate interest in promoting patient health, which is what Texas did here -- even Roe v. Wade said that states can ensure maximum safety for patients.”</blockquote>
+          </aside>
+        </div>
 
       </section>
 
