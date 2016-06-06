@@ -28,9 +28,9 @@ if($_GET['type']!='ajax'){
       <section id="ch1-3">
         <h3><span class="sub-chapter-numeral">1.3</span>What had the Supreme Court decided up to that point?</h3>
         <ul>
-          <li><a href="https://www.oyez.org/cases/1964/496&sa=D&ust=1464975471352000&usg=AFQjCNFGgb651Mx1SqwfAsJnnYfi_5n3Sg" target="_blank">Griswold v. Connecticut</a> (1965): States may not restrict a married couple’s ability to be counseled on and access contraception. This landmark case was the first to articulate a Constitutional right to privacy.</li>
-          <li><a href="https://www.oyez.org/cases/1971/70-17&sa=D&ust=1464975471361000&usg=AFQjCNF_wrdVBQyF-MAQROgAb0f9lCkO-A" target="_blank">Eisenstadt v. Baird</a> (1972): Unmarried individuals may not be denied counsel on or having access to contraception. This decision relied on the Equal Protection Clause of the Constitution's Fourteenth Amendment, protecting the rights of unmarried individuals.</li>
-          <li><a href="https://www.oyez.org/cases/1970/84&sa=D&ust=1464975471364000&usg=AFQjCNEeU6v1YCCUnJt3pAJiHPnT2OFx1w" target="_blank">United States v. Vuitch</a> (1971): A DC law that prohibited abortion unless “necessary for the preservation of the mother’s life or health” was not unconstitutionally vague. The Court also found that the burden of proof in finding an abortion unnecessary was on the prosecution.</li>
+          <li><a href="https://www.oyez.org/cases/1964/496" target="_blank">Griswold v. Connecticut</a> (1965): States may not restrict a married couple’s ability to be counseled on and access contraception. This landmark case was the first to articulate a Constitutional right to privacy.</li>
+          <li><a href="https://www.oyez.org/cases/1971/70-17" target="_blank">Eisenstadt v. Baird</a> (1972): Unmarried individuals may not be denied counsel on or having access to contraception. This decision relied on the Equal Protection Clause of the Constitution's Fourteenth Amendment, protecting the rights of unmarried individuals.</li>
+          <li><a href="https://www.oyez.org/cases/1970/84" target="_blank">United States v. Vuitch</a> (1971): A DC law that prohibited abortion unless “necessary for the preservation of the mother’s life or health” was not unconstitutionally vague. The Court also found that the burden of proof in finding an abortion unnecessary was on the prosecution.</li>
         </ul>
       </section>
 
