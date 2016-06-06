@@ -184,6 +184,10 @@ var Main = (function($) {
         targetInstance.slideToggle();
       }
     });
+
+    setTimeout(function(){
+      $('.aside-container').addClass('loaded');
+    },1500);
   }
 
   function _initMediaPlayer() {

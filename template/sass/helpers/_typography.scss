@@ -28,18 +28,18 @@ $font-bold: "freight-big-pro", serif;
 
 // Typekit Fout styles
 h1,h2,h3,h4,h5,h6,
-p,a,ul,ol {
+p,a,ul,ol,blockquote {
   transition: opacity .5s ease-out;
 }
 .wf-loading {
   h1,h2,h3,h4,h5,h6,
-  p,a,ul,ol {
+  p,a,ul,ol,blockquote {
     opacity: 0;
   }
 }
 .wf-active {
   h1,h2,h3,h4,h5,h6,
-  p,a,ul,ol {
+  p,a,ul,ol,blockquote {
     opacity: 1;
   }
 }

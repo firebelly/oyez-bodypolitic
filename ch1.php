@@ -141,22 +141,84 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">1.9</span>What did the decision say?</h3>
 
         <div class="aside-wrap">
-          <p>Roe v. Wade established two major things. First, states could not regulate abortions during the first trimester, because it represented a private medical decision between a woman and her doctor. This was grounded in the right to privacy, but for the doctor more than for the woman. The other major holding was that states could regulate abortion later on in pregnancy. After the first trimester, they could regulate the procedure to protect the health of the mother, and in the <span class="aside-trigger first-item" data-aside="viability-stage"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>viability stage</span>, the state could regulate or prohibit abortion and to preserve the potential life (with exceptions for the health of the mother). Overall, Roe focused on a discussion of the privacy of the physician rather than on a woman’s private right to an abortion.</p>
+          <p>Roe v. Wade established two major things. First, states could not regulate abortions during the <span class="aside-trigger first-item" data-aside="opinion-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>first trimester</span>, because it represented a private medical decision between a woman and her doctor. This was grounded in the <span class="aside-trigger first-item" data-aside="opinion-quote-2"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>right to privacy</span>, but <span class="aside-trigger first-item" data-aside="opinion-quote-3"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>for the doctor more than for the woman</span>. The other major holding was that states could regulate abortion later on in pregnancy. After the first trimester, they could regulate the procedure to protect the health of the mother, and in the <span class="aside-trigger first-item" data-aside="viability-stage"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>viability stage</span>, the state could regulate or prohibit abortion and to preserve the <span class="aside-trigger first-item" data-aside="opinion-quote-4"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>potential life</span> (with exceptions for the health of the mother). Overall, Roe focused on a discussion of the privacy of the physician rather than on a woman’s private right to an abortion.</p>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-1">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“Pointing to the absence of legislative history to support the contention, they claim that most state laws were designed solely to protect the woman. Because medical advances have lessened this concern, at least with respect to abortion in early pregnancy, they argue that with respect to such abortions the laws can no longer be justified by any state interest.”</p>
+              <cite>— quote from opinion</cite>
+            </blockquote>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-2">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“We, therefore, conclude that the right of personal privacy includes the abortion decision, but that this right is not unqualified, and must be considered against important state interests in regulation.”</p>
+              <cite>— quote from opinion</cite>
+            </blockquote>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-3">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“The decision vindicates the right of the physician to administer medical treatment according to his professional judgment up to the points where important state interests provide compelling justifications for intervention. Up to those points, the abortion decision in all its aspects is inherently, and primarily, a medical decision, and basic responsibility for it must rest with the physician.”</p>
+              <cite>— quote from opinion</cite>
+            </blockquote>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-4">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“In assessing the State's interest, recognition may be given to the less rigid claim that as long as at least potential life is involved, the State may assert interests beyond the protection of the pregnant woman alone.”</p>
+              <cite>— quote from opinion</cite>
+            </blockquote>
+          </aside>
           <aside class="aside-container aside_info inactive" data-aside="viability-stage">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <p>When the fetus could reasonably survive outside of the womb.</p>
           </aside>
         </div>
 
-        <p>The decision was written by Justice Harry Blackmun, who had once considered becoming a doctor and, before he became a justice, spent almost ten years as the resident counsel for the Mayo Clinic. Justice Blackmun’s background is often cited as an explanation for his emphasis on the rights of medical practitioners.</p>
+        <div class="aside-wrap">
+          <p>The decision was written by Justice Harry Blackmun, who had once considered becoming a doctor and, before he became a justice, spent almost ten years as the resident counsel for the Mayo Clinic. Justice Blackmun’s background is often cited as an explanation for his emphasis on the <span class="aside-trigger first-item" data-aside="opinion-quote-5"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>rights of medical practitioners</span>.</p>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-5">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“We need not resolve the difficult question of when life begins. When those trained in the respective disciplines of medicine, philosophy, and theology are unable to arrive at any consensus, the judiciary, at this point in the development of man's knowledge, is not in a position to speculate as to the answer.”</p>
+              <cite>— quote from opinion</cite>
+            </blockquote>
+          </aside>
+        </div>
       </section>
 
       <section id="ch1-10">
         <h3><span class="sub-chapter-numeral">1.10</span>What did the dissents say?</h3>
 
-        <p>Justice Byron R. White argued that the right to an abortion was not in the Constitution. He considered the decision to get an abortion as a “convenience” and placed more weight on the rights of the fetus.</p>
+        <div class="aside-wrap">
+          <p>Justice Byron R. White argued that the right to an abortion was not in the Constitution. He considered the decision to get an abortion as a <span class="aside-trigger first-item" data-aside="opinion-quote-6"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>“convenience”</span> and placed more weight on the rights of the fetus.</p>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-6">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“The Court apparently values the convenience of the pregnant woman more than the continued existence and development of the life or potential life that she carries.”</p>
+              <cite>— quote from opinion</cite>
+            </blockquote>
+          </aside>          
+        </div>
 
-        <p>Justice William H. Rehnquist’s dissent questioned the majority’s reasoning on privacy grounds. He also argued that this was an issue best left to the states, not the Federal government - which many opponents of abortion have argued before and since. Essentially, his dissent argued that abortion was not a constitutional right.</p>
+        <div class="aside-wrap">
+          <p>Justice William H. Rehnquist’s dissent questioned the majority’s reasoning on privacy grounds. He also argued that this was an issue best left to the <span class="aside-trigger first-item" data-aside="opinion-quote-7"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>states</span>, not the Federal government - which many opponents of abortion have argued before and since. Essentially, his dissent argued that abortion was not a <span class="aside-trigger first-item" data-aside="opinion-quote-8"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>constitutional right</span>.</p>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-7">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“The fact that a majority of the States reflecting, after all, the majority sentiment in those States, have had restrictions on abortions for at least a century is a strong indication, it seems to me, that the asserted right to an abortion is not ‘so rooted in the traditions and conscience of our people as to be ranked as fundamental.’”</p>
+              <cite>— quote from dissent</cite>
+            </blockquote>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-8">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“To reach its result, the Court necessarily has had to find within the scope of the Fourteenth Amendment a right that was apparently completely unknown to the drafters of the Amendment.”</p>
+              <cite>— quote from dissent</cite>
+            </blockquote>
+          </aside>    
+        </div>
       </section>
 
       <section id="ch1-11">

@@ -194,6 +194,7 @@
 .aside-container {
   top: 0;
   left: 0;
+  opacity: 0;
   width: 100%;
   display: none;
   @extend .animated;
@@ -201,6 +202,10 @@
   position: relative;
   @extend .font-display;
   letter-spacing: .024em;
+
+  &.loaded {
+    opacity: 1;
+  }
 
   p,
   blockquote {

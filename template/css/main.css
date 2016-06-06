@@ -398,18 +398,18 @@ table {
 }
 
 h1, h2, h3, h4, h5, h6,
-p, a, ul, ol {
+p, a, ul, ol, blockquote {
   -webkit-transition: opacity .5s ease-out;
           transition: opacity .5s ease-out;
 }
 
 .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading h5, .wf-loading h6,
-.wf-loading p, .wf-loading a, .wf-loading ul, .wf-loading ol {
+.wf-loading p, .wf-loading a, .wf-loading ul, .wf-loading ol, .wf-loading blockquote {
   opacity: 0;
 }
 
 .wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6,
-.wf-active p, .wf-active a, .wf-active ul, .wf-active ol {
+.wf-active p, .wf-active a, .wf-active ul, .wf-active ol, .wf-active blockquote {
   opacity: 1;
 }
 
@@ -2766,11 +2766,15 @@ body.is-exiting .site-header::before {
 .aside-container {
   top: 0;
   left: 0;
+  opacity: 0;
   width: 100%;
   display: none;
   padding-top: 16px;
   position: relative;
   letter-spacing: .024em;
+}
+.aside-container.loaded {
+  opacity: 1;
 }
 .aside-container p,
 .aside-container blockquote {
