@@ -2756,8 +2756,11 @@ body.is-exiting .site-header::before {
 .aside-wrap {
   position: relative;
 }
-.aside-wrap p:first-of-type {
+.aside-wrap > p:first-of-type {
   margin-top: 2em;
+}
+.aside-wrap > p:last-of-type {
+  margin-bottom: 2em;
 }
 
 .aside-container {

@@ -183,8 +183,11 @@
 
 .aside-wrap {
   position: relative;
-  p:first-of-type {
+  > p:first-of-type {
     margin-top: 2em;
+  }
+  > p:last-of-type {
+    margin-bottom: 2em;
   }
 }
 
