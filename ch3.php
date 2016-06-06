@@ -77,19 +77,19 @@ if($_GET['type']!='ajax'){
         <div class="aside-wrap">
           <p>A big issue was about the amount of deference that courts are supposed to give to Congressional findings regarding medical facts. If <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>Congress says</span> that the D&X procedure is never medically necessary, but some members of the <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>medical community</span> disagree, should courts defer to the findings of Congress or to the doctors? They also debated whether there was enough difference from Carhart I to rule <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>differently</span>. (Plus there was an unusual <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-4"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>outburst</span> from an observer in the courtroom.)</p>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-1">
-            <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-1.mp3" type="audio/mp3" controls></audio>
+            <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-1.mp3" type="audio/mp3" controls></audio>
             <blockquote>“Congress held six hearings over four different Congresses and heard from dozens of witnesses in determining that partial birth abortions are never medically necessary, pose health risks, and should be banned. Under familiar principles of deference to congressional fact finding, those determinations should be upheld as long as they represent reasonable inferences based on substantial evidence in the congressional record.”</blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-2">
-            <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-1.mp3" type="audio/mp3" controls></audio>
+            <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-2.mp3" type="audio/mp3" controls></audio>
             <blockquote>“Now as I look at the record, I see many, many, many doctors telling Congress and everybody else that it is necessary, and safe. And I see other doctors telling-- Congress primarily, but in court, too, that it isn't necessary, ever for safety.”</blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-3">
-            <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-1.mp3" type="audio/mp3" controls></audio>
+            <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-3.mp3" type="audio/mp3" controls></audio>
             <blockquote>“So if giving deference to Nebraska, we reach that conclusion there, and if the deference that is owed is the same, and if the evidence is about the same on both sides, how can we reach a different conclusion here?”</blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-4">
-            <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-1.mp3" type="audio/mp3" controls></audio>
+            <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-4.mp3" type="audio/mp3" controls></audio>
             <blockquote>outburst, going over lines of “In terms of live witnesses, there were simply not that many. -> We'll give you an extra 30 seconds.”</blockquote>
           </aside>
         </div>
@@ -100,10 +100,13 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">3.7</span>What did the decision say?</h3>
 
         <div class="aside-wrap">
-          <p>Justice Anthony Kennedy wrote the majority opinion in the 5-4 decision. He stated that because the act only outlawed one major late-term abortion procedure, D&X, it <span class="aside-trigger audio-trigger first-item" data-aside="opinion-quote-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>did  not create an undue burden</span> on pregnant women seeking abortions. Justice Kennedy echoed some of his dissent from Carhart I, and he wrote that when the medical community had yet to determine the necessity of a procedure, the legislature was free to regulate it. The Court upheld “specific anatomical landmarks” in the statute. These landmarks were what separated the Nebraska statute in Carhart I from the federal statute in this case. For Kennedy, those distinctions mattered and separated D&X from other late-term abortion procedures.</p>
-          <aside class="aside-container aside_audio inactive" data-aside="opinion-quote-1">
-            <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-1.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“The medical uncertainty over whether the Act’s prohibition creates significant health risks provides a sufficient basis to conclude this facial attack that the Act does not most an undue burden. The conclusion that the Act does not impose an undue burden is also supported by other considerations. Alternatives are available to the prohibited procedure.”</blockquote>
+          <p>Justice Anthony Kennedy wrote the majority opinion in the 5-4 decision. He stated that because the act only outlawed one major late-term abortion procedure, D&X, it  <span class="aside-trigger first-item" data-aside="opinion-quote-3"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>did  not create an undue burden</span> on pregnant women seeking abortions. Justice Kennedy echoed some of his dissent from Carhart I, and he wrote that when the medical community had yet to determine the necessity of a procedure, the legislature was free to regulate it. The Court upheld “specific anatomical landmarks” in the statute. These landmarks were what separated the Nebraska statute in Carhart I from the federal statute in this case. For Kennedy, those distinctions mattered and separated D&X from other late-term abortion procedures.</p>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-3">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“The medical uncertainty over whether the Act’s prohibition creates significant health risks provides a sufficient basis to conclude this facial attack that the Act does not most an undue burden. The conclusion that the Act does not impose an undue burden is also supported by other considerations. Alternatives are available to the prohibited procedure.”</p>
+              <cite>— quote from opinion</cite>
+            </blockquote>
           </aside>
 
         </div>
@@ -114,14 +117,20 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">3.8</span>What did the dissent say?</h3>
         
         <div class="aside-wrap">
-          <p>Justice Ruth Bader Ginsburg wrote the fiery dissent, which was joined by Justices John Paul Stevens, David Souter, and Stephen Breyer. She wrote that upholding the Act violated the precedent set by Casey, and that the statute must include a provision regarding the pregnant woman’s health, which was <span class="aside-trigger audio-trigger first-item" data-aside="opinion-quote-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>absent</span>. In announcing her dissent from the bench, she criticized the majority opinion as infringing on <span class="aside-trigger audio-trigger first-item" data-aside="dissent-quote-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>women’s rights</span>.</p>
-          <aside class="aside-container aside_audio inactive" data-aside="opinion-quote-2">
-            <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-1.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“Notably, the concerns expressed are untethered to any ground genuinely serving the Government's interest in preserving life. By allowing such concerns to carry the day and case, overriding fundamental rights, the Court dishonors our precedent.”</blockquote>
+          <p>Justice Ruth Bader Ginsburg wrote the fiery dissent, which was joined by Justices John Paul Stevens, David Souter, and Stephen Breyer. She wrote that upholding the Act violated the precedent set by Casey, and that the statute must include a provision regarding the pregnant woman’s health, which was <span class="aside-trigger first-item" data-aside="opinion-quote-4"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>absent</span>. In announcing her dissent from the bench, she criticized the majority opinion as infringing on <span class="aside-trigger first-item" data-aside="dissent-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>women’s rights</span>.</p>
+          <aside class="aside-container aside_info inactive" data-aside="opinion-quote-4">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“Notably, the concerns expressed are untethered to any ground genuinely serving the Government's interest in preserving life. By allowing such concerns to carry the day and case, overriding fundamental rights, the Court dishonors our precedent.”</p>
+              <cite>— quote from opinion</cite>
+            </blockquote>
           </aside>
-          <aside class="aside-container aside_audio inactive" data-aside="dissent-quote-1">
-            <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-1.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“The Court shields the woman by denying her any choice in the matter and this way of protecting women recalls the ancient notions about women's place in society and under the Constitution ideas that have long since been discredited.”</blockquote>
+          <aside class="aside-container aside_info inactive" data-aside="dissent-quote-1">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <p>“The Court shields the woman by denying her any choice in the matter and this way of protecting women recalls the ancient notions about women's place in society and under the Constitution ideas that have long since been discredited.”</p>
+              <cite>— quote from dissent</cite>
+            </blockquote>
           </aside>
         </div>
       </section>
