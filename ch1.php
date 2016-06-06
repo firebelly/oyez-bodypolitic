@@ -28,16 +28,32 @@ if($_GET['type']!='ajax'){
       <section id="ch1-3">
         <h3><span class="sub-chapter-numeral">1.3</span>What had the Supreme Court decided up to that point?</h3>
         <ul>
-          <li>Griswold v. Connecticut (1965): States may not restrict a married couple’s ability to be counseled on and access contraception. This landmark case was the first to articulate a Constitutional right to privacy.</li>
-          <li>Eisenstadt v. Baird (1972): Unmarried individuals may not be denied counsel on or having access to contraception. This decision relied on the Equal Protection Clause of the Constitution's Fourteenth Amendment, protecting the rights of unmarried individuals.</li>
-          <li>United States v. Vuitch (1971): A DC law that prohibited abortion unless “necessary for the preservation of the mother’s life or health” was not unconstitutionally vague. The Court also found that the burden of proof in finding an abortion unnecessary was on the prosecution.</li>
+          <li><a href="https://www.oyez.org/cases/1964/496&sa=D&ust=1464975471352000&usg=AFQjCNFGgb651Mx1SqwfAsJnnYfi_5n3Sg" target="_blank">Griswold v. Connecticut</a> (1965): States may not restrict a married couple’s ability to be counseled on and access contraception. This landmark case was the first to articulate a Constitutional right to privacy.</li>
+          <li><a href="https://www.oyez.org/cases/1971/70-17&sa=D&ust=1464975471361000&usg=AFQjCNF_wrdVBQyF-MAQROgAb0f9lCkO-A" target="_blank">Eisenstadt v. Baird</a> (1972): Unmarried individuals may not be denied counsel on or having access to contraception. This decision relied on the Equal Protection Clause of the Constitution's Fourteenth Amendment, protecting the rights of unmarried individuals.</li>
+          <li><a href="https://www.oyez.org/cases/1970/84&sa=D&ust=1464975471364000&usg=AFQjCNEeU6v1YCCUnJt3pAJiHPnT2OFx1w" target="_blank">United States v. Vuitch</a> (1971): A DC law that prohibited abortion unless “necessary for the preservation of the mother’s life or health” was not unconstitutionally vague. The Court also found that the burden of proof in finding an abortion unnecessary was on the prosecution.</li>
         </ul>
       </section>
 
       <section id="ch1-4">
         <h3><span class="sub-chapter-numeral">1.4</span>What was the law being challenged?</h3>
 
-        <p>At the time, Texas’ statute was very strict. Abortion was criminalized, so doctors faced fines or even jail time if they performed an abortion. There was, however, an exception for when the life of the mother was in danger.</p>
+        <div class="aside-wrap">
+          <p>At the time, Texas’ statute was very strict. Abortion was <span class="aside-trigger first-item" data-aside="criminalization"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>criminalized</span>, so doctors faced fines or even jail time if they performed an abortion. There was, however, an <span class="aside-trigger first-item" data-aside="exception"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>exception</span> for when the life of the mother was in danger.</p>
+          <aside class="aside-container aside_info inactive" data-aside="criminalization">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <P>“If any person shall designedly administer to a pregnant woman or knowingly procure to be administered with her consent any drug or medicine, or shall use towards her any violence or means whatever externally or internally applied, and thereby procure an abortion, he shall be confined in the penitentiary not less than two nor more than five years if it be done without her consent, the punishment shall be doubled. By 'abortion' is meant that the life of the fetus or embryo shall be destroyed in the woman's womb or that a premature birth thereof be caused.”</p> 
+              <cite>— 2A Texas Penal Code art. 1191, at 429 (1961)</cite>
+            </blockquote>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="exception">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <blockquote>
+              <P>“Nothing in this chapter applies to an abortion procured or attempted by medical advice for the purpose of saving the life of the mother.”</p> 
+              <cite>— 2A Texas Penal Code art. 1196, at 436 (1961)</cite>
+            </blockquote>
+          </aside>
+        </div>
       </section>
 
       <section id="ch1-5">
@@ -46,15 +62,33 @@ if($_GET['type']!='ajax'){
         <p>The petitioners’ argument rested on the right to privacy the Court had previously articulated in Griswold. Two points, in particular, were emphasized:</p>
 
         <ol>
-          <li>Physicians’ rights. There were no other common medical procedures that doctors could be punished for performing. The Texas statute required physicians to determine whether a woman’s life was at risk, permitting them to perform an abortion. Overall, the laws were vague enough to worry doctors about the legality of the procedure in each case.</li>
-          <li>Disruption of woman’s life. At the time, women could be asked to leave their jobs when they got pregnant, and maternity leave was not generally offered. There was no legal requirement for employers to rehire these women after they gave birth.</li>
+          <div class="aside-wrap">
+            <li><span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>Physicians’ rights</span>. There were no other common medical procedures that doctors could be punished for performing. The Texas statute required physicians to determine whether a woman’s life was at risk, permitting them to perform an abortion. Overall, the laws were vague enough to worry doctors about the legality of the procedure in each case.</li>
+            <aside class="aside-container aside_audio inactive" data-aside="oral-argument-1">
+              <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-1.mp3" type="audio/mp3" controls></audio>
+              <blockquote>“We submit that a doctor is not used to being restricted to acting only when it's for the purpose of saving the life of the woman, and that health is a continuum which runs into life.And a doctor in our State does not know whether he can perform an abortion only when death is imminent or when the woman's life would be shortened. He does not know if the death must be certain, or if it could be an increase in probability of her death. So here, in the District, doctors are able to exercise their normal matter of judgment, whether or not the health of the woman, mental or physical will be affected. But, in Texas, we tell the doctor that unless he can decide whether it's necessary for the purpose of saving her life, and for no other reason, that he is subject to criminal sanctions.”</blockquote>
+            </aside>
+          </div>
+          <div class="aside-wrap">
+            <li><span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>Disruption of woman’s life</span>. At the time, women could be asked to leave their jobs when they got pregnant, and maternity leave was not generally offered. There was no legal requirement for employers to rehire these women after they gave birth.</li>
+            <aside class="aside-container aside_audio inactive" data-aside="oral-argument-2">
+              <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-2.mp3" type="audio/mp3" controls></audio>
+              <blockquote>“So, a pregnancy to a woman is perhaps one of the most determinative aspects of her life. It disrupts her body. It disrupts her education. It disrupts her employment. And it often disrupts her entire family life. And we feel that, because of the impact on the woman, this certainly and as far as there are any rights which are fundamental is a matter which is of such fundamental and basic concern to the woman involved that she should be allowed to make the choice as to whether to continue or to terminate her pregnancy”</blockquote>
+            </aside>
+          </div>
         </ol>
       </section>
 
       <section id="ch1-6">
         <h3><span class="sub-chapter-numeral">1.6</span>Why was Roe argued twice?</h3>
-
-        <p>When the case was first heard on December 13, 1971, the Supreme Court was two justices short. There were still enough justices present to hear the case, but nonetheless the Court was not at full strength.  Although they heard the case and voted on it, they decided it was an important issue that should be heard by a full bench. It was scheduled for reargument on October 11, 1972, after Justices Lewis Powell and William Rehnquist joined the Court.</p>
+        
+        <div class="aside-wrap">
+          <p>When the case was first heard on December 13, 1971, the Supreme Court was two justices short. There were still <span class="aside-trigger first-item" data-aside="quorum"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>enough</span> justices present to hear the case, but nonetheless the Court was not at full strength.  Although they heard the case and voted on it, they decided it was an important issue that should be heard by a full bench. It was scheduled for reargument on October 11, 1972, after Justices Lewis Powell and William Rehnquist joined the Court.</p>
+          <aside class="aside-container aside_info inactive" data-aside="quorum">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p>Six justices make a quorum, the minimum number required by law.</p>
+          </aside>
+        </div>
       </section>
 
       <section id="ch1-7">
@@ -67,20 +101,52 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">1.8</span>What happened at oral arguments?</h3>
 
         <div class="aside-wrap">
-          <p>Sarah Weddington, the advocate for Roe, <span class="aside-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>argued</span> that the law was unconstitutional, citing the Ninth Amendment, the Equal Protection and Due Process Clauses of the Fourteenth Amendment, and privacy. She also argued that, if the law is intended to protect the fetus, why are doctors punished instead of the woman seeking the abortion? She also brought up the danger of self-abortion and the need for medical expertise.</p>
-          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-1">
-            <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-1.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“We submit that a doctor is not used to being restricted to acting only when it's for the purpose of saving the life of the woman, and that health is a continuum which runs into life.And a doctor in our State does not know whether he can perform an abortion only when death is imminent or when the woman's life would be shortened. He does not know if the death must be certain, or if it could be an increase in probability of her death. So here, in the District, doctors are able to exercise their normal matter of judgment, whether or not the health of the woman, mental or physical will be affected. But, in Texas, we tell the doctor that unless he can decide whether it's necessary for the purpose of saving her life, and for no other reason, that he is subject to criminal sanctions.”</blockquote>
+          <p>Sarah Weddington, the <span class="aside-trigger first-item" data-aside="advocate"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>advocate</span> for Roe, argued that the law was unconstitutional, citing the <span class="aside-trigger first-item" data-aside="ninth-ammendment"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Ninth Amendment</span>, the Equal Protection and Due Process Clauses of the <span class="aside-trigger first-item" data-aside="fourteenth-ammendment"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Fourteenth Amendment</span>, and privacy. She also argued that, if the law is intended to protect the fetus, <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>why are doctors punished</span> instead of the woman seeking the abortion? She also brought up the danger of self-abortion and the need for medical expertise.</p>
+          <aside class="aside-container aside_info inactive" data-aside="advocate">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p>Lawyer arguing at the Supreme Court</p>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="ninth-ammendment">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p>The enumeration in the Constitution of certain rights shall not be construed to deny or disparate others retained by the people.</p>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="fourteenth-ammendment">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p>No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.</p>
+          </aside>
+          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-3">
+            <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-3.mp3" type="audio/mp3" controls></audio>
+            <blockquote>“As we talked last time, they are not subject in Texas to any kind of criminal prosecution whether the woman performs self-abortion, whether she goes to a doctor, finds someone who will perform it on her. She is guilty of no crime whatsoever and, yet, the state tries to allege that its purpose in the statute was to protect the fetus. If that’s true, the fact the woman is guilty of no crime is not a reasonable kind of — it does not reasonably follow.”</blockquote>
           </aside>
         </div>
 
-        <p>Jay Floyd, the advocate for Texas in the first case, started out with a joke that fell flat. He argued that the state had an interest in protecting its future citizens, and in protecting the safety of the mother. Robert C. Flowers, who argued for Texas in round 2, continued this line of argument and defended the punishment for abortion providers.</p>
+        <div class="aside-wrap">
+          <p>Jay Floyd, the advocate for Texas in the first case, started out with <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-4"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>a joke that fell flat</span>. He argued that the state had an interest in protecting its future citizens, and in protecting the safety <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-5"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>of the mother</span>. Robert C. Flowers, who argued for Texas in round 2, continued this line of argument and <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-6"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>defended the punishment</span> for abortion providers.</p>
+          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-4">
+            <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-4.mp3" type="audio/mp3" controls></audio>
+            <blockquote>“Mr. Chief Justice, may it please the Court. It's an old joke, but when a man argues against two beautiful ladies like this, they are going to have the last word.”</blockquote>
+          </aside>
+          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-5">
+            <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-5.mp3" type="audio/mp3" controls></audio>
+            <blockquote>“There have been statistics furnished to this Court in various briefs from various groups, and from medical societies of different groups of physicians and gynecologists, or whatever it may be. These statistics have not shown me, for example, that abortion is safer than normal childbirth. They have not shown me that there are not emotional problems that are very important, resulting from an abortion. The protection of the mother, at one time, may still be the primary - but the policy considerations, Mr. Justice, would seem to me to be for the State legislature to make a decision.”</blockquote>
+          </aside>
+          <aside class="aside-container aside_audio inactive" data-aside="oral-argument-6">
+            <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-6.mp3" type="audio/mp3" controls></audio>
+            <blockquote>“Because this is the only type of operation that would take another human life.”</blockquote>
+          </aside>
+        </div>
       </section>
 
       <section id="ch1-9">
         <h3><span class="sub-chapter-numeral">1.9</span>What did the decision say?</h3>
 
-        <p>Roe v. Wade established two major things. First, states could not regulate abortions during the first trimester, because it represented a private medical decision between a woman and her doctor. This was grounded in the right to privacy, but for the doctor more than for the woman. The other major holding was that states could regulate abortion later on in pregnancy. After the first trimester, they could regulate the procedure to protect the health of the mother, and in the viability stage, the state could regulate or prohibit abortion and to preserve the potential life (with exceptions for the health of the mother). Overall, Roe focused on a discussion of the privacy of the physician rather than on a woman’s private right to an abortion.</p> 
+        <div class="aside-wrap">
+          <p>Roe v. Wade established two major things. First, states could not regulate abortions during the first trimester, because it represented a private medical decision between a woman and her doctor. This was grounded in the right to privacy, but for the doctor more than for the woman. The other major holding was that states could regulate abortion later on in pregnancy. After the first trimester, they could regulate the procedure to protect the health of the mother, and in the <span class="aside-trigger first-item" data-aside="viability-stage"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>viability stage</span>, the state could regulate or prohibit abortion and to preserve the potential life (with exceptions for the health of the mother). Overall, Roe focused on a discussion of the privacy of the physician rather than on a woman’s private right to an abortion.</p>
+          <aside class="aside-container aside_info inactive" data-aside="viability-stage">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p>When the fetus could reasonably survive outside of the womb.</p>
+          </aside>
+        </div>
 
         <p>The decision was written by Justice Harry Blackmun, who had once considered becoming a doctor and, before he became a justice, spent almost ten years as the resident counsel for the Mayo Clinic. Justice Blackmun’s background is often cited as an explanation for his emphasis on the rights of medical practitioners.</p>
       </section>
@@ -102,7 +168,21 @@ if($_GET['type']!='ajax'){
 
         <p>Public opinion since the decision has remained widely divided. Justice Blackmun received many letters of thanks from women around the country, but also approximately 80,000 hate letters. Even some proponents of abortion rights have been critical of Roe. Justice Ruth Bader Ginsburg has said, “My criticism of Roe is that it seemed to have stopped momentum on the side of change.” In other words, the decision came too soon, before a majority of public opinion came to support the cause. In fact, when the decision came down, 45 states were considering legislation to reform their abortion laws in some way.</p>
 
-        <p>The Supreme Court heard many challenges related to Roe v. Wade, starting just a few years after the decision came down. These included Planned Parenthood v. Danforth (1976), City of Akron v. Akron Center for Reproductive Health (1983), and Thornberg v. American College of Obstetricians and Gynecologists (1986).</p>
+        <div class="aside-wrap">
+          <p>The Supreme Court heard many challenges related to Roe v. Wade, starting just a few years after the decision came down. These included <span class="aside-trigger first-item" data-aside="planned-parenthood-v-danforth"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Planned Parenthood v. Danforth</span> (1976), <span class="aside-trigger first-item" data-aside="akron-v-akron"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>City of Akron v. Akron Center for Reproductive Health</span> (1983), and <span class="aside-trigger first-item" data-aside="thornberg-v-acog"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Thornberg v. American College of Obstetricians and Gynecologists</span> (1986).</p>
+          <aside class="aside-container aside_info inactive" data-aside="planned-parenthood-v-danforth">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p>Invalidating a law requiring prior written consent of the spouse of a woman seeking an abortion unless the abortion was necessary to protect the life of the mother. — <a href="https://www.oyez.org/cases/1975/74-1151" target="_blank">https://www.oyez.org/cases/1975/74-1151</a></p>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="akron-v-akron">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p>Invalidating several abortion regulations, including a requirement that second trimester abortions be performed in a hospital (and the first mention of the soon-to-be important words "undue burden")— <a href="https://www.oyez.org/cases/1982/81-746" target="_blank">https://www.oyez.org/cases/1982/81-746</a></a></p>
+          </aside>
+          <aside class="aside-container aside_info inactive" data-aside="thornberg-v-acog">
+            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+            <p>Invalidating a statute requiring the use of the abortion technique that provided the most protection for the life of the fetus in postviability abortion — <a href="https://www.oyez.org/cases/1985/84-495" target="_blank">https://www.oyez.org/cases/1985/84-495</a></a></a></p>
+          </aside>
+        </div>
 
       </section>
 

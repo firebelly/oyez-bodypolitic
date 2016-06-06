@@ -2733,7 +2733,6 @@ body.is-exiting .site-header::before {
   color: #ff9182;
   cursor: pointer;
   display: inline;
-  white-space: nowrap;
 }
 .aside-trigger.first-item .icon {
   margin-left: 0;
@@ -2757,6 +2756,9 @@ body.is-exiting .site-header::before {
 .aside-wrap {
   position: relative;
 }
+.aside-wrap p:first-of-type {
+  margin-top: 2em;
+}
 
 .aside-container {
   top: 0;
@@ -2765,6 +2767,7 @@ body.is-exiting .site-header::before {
   display: none;
   padding-top: 16px;
   position: relative;
+  letter-spacing: .024em;
 }
 .aside-container p,
 .aside-container blockquote {

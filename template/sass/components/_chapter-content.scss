@@ -156,7 +156,6 @@
   color: $rose;
   cursor: pointer;
   display: inline;
-  white-space: nowrap;
   &.first-item {
     .icon {
       margin-left: 0;
@@ -184,6 +183,9 @@
 
 .aside-wrap {
   position: relative;
+  p:first-of-type {
+    margin-top: 2em;
+  }
 }
 
 .aside-container {
@@ -195,6 +197,7 @@
   padding-top: 16px;
   position: relative;
   @extend .font-display;
+  letter-spacing: .024em;
 
   p,
   blockquote {
