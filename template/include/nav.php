@@ -60,7 +60,7 @@
           <li><a href="/ch4#ch4-6" class="ajax"><span class="chapter-numeral">4.6</span> What could the decision say?</a></li>
           <li><a href="/ch4#ch4-7" class="ajax"><span class="chapter-numeral">4.7</span> What did the dissent say?</a></li>
           <li><a href="/ch4#ch4-8" class="ajax"><span class="chapter-numeral">4.8</span> What implications does the decision have for similar laws in other states?</a></li>
-          <li><a href="/ch2#ch4-video" class="ajax">Video</a></li>
+          <li><a href="/ch4#ch4-video" class="ajax">Video</a></li>
           <li><a href="/ch4#ch4-quicktake" class="ajax">Quick Take</a></li>
         </ul>
       </li>

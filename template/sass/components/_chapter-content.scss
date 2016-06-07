@@ -121,6 +121,17 @@
   }
 
   .video-section {
+  
+    .video-wrapper {    
+      opacity: 0;
+      transition: opacity 1s ease-out;
+    }
+
+    &.loaded {
+      .video-wrapper {
+        opacity: 1;
+      }
+    }
 
     video {
       vertical-align: top;
@@ -128,6 +139,7 @@
 
     .mejs-controls {
       bottom: 6px;
+      visibility: hidden;
     }
 
     .mejs-container {

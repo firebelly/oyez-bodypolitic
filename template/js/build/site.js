@@ -6387,10 +6387,19 @@ var Main = (function($) {
       features: ['playpause','progress','current', 'volume'], 
       success:  function (mediaElement, domObject) { 
         var $thisMediaElement = (mediaElement.id) ? $("#"+mediaElement.id) : $(mediaElement);
+
+        $thisMediaElement.closest('.video-section').append('<div class="loading-spinner"></div>');
+        // add event listener
+        mediaElement.addEventListener('loadeddata', function(e) {
+             
+          $thisMediaElement.closest('.video-section').addClass('loaded');
+          $('.video-section .loading-spinner').remove();
+             
+        }, false);
         mediaElement.addEventListener("playing", function(){ 
-          $(this).closest('.chapter-vid').addClass('played');
+          $thisMediaElement.closest('.video-section').addClass('played');
           setTimeout(function() {
-            $('.chapter-vid.played').removeClass('played');
+            $('.video-section.played').removeClass('played');
           }, 5000);
         });
         mediaElement.addEventListener("ended", function(e){ 
@@ -6398,7 +6407,7 @@ var Main = (function($) {
             $thisMediaElement.parents(".mejs-inner").find(".mejs-poster").show();
             $thisMediaElement.closest(".mejs-container").removeClass('played');
         });
-      }
+      },
     });
   }
 
