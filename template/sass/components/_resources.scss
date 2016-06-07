@@ -10,11 +10,24 @@
   right: $global-mobile-margin;
 
   h4 {
-    right: 0;
+    left: 6px;
     bottom: 100%;
+    color: $rose;
+    display: none;
     font-size: 14px;
+    margin: 0 0 .5em;
     position: absolute;
-    @extend .font-display;
+    @extend .font-bold;
+    @extend .small-caps;
+    white-space: nowrap;
+    letter-spacing: .06em;
+    text-transform: lowercase;
+    @include media-sm {
+      display: block;
+    }
+    @include media-md {
+      left: 18px;
+    }
   }
 
   .icon {

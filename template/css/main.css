@@ -374,7 +374,7 @@ table {
   border-spacing: 0;
 }
 
-.font-display, .site-header h1, .resources-nav h4, .resources-container h3, ul.resources-categories h4, .site-nav ul.nav-list > div > li, .page-content h5, .aside-container, body[data-bodyClass=index].nav-active .site-header h1 {
+.font-display, .site-header h1, .resources-container h3, ul.resources-categories h4, .site-nav ul.nav-list > div > li, .page-content h5, .aside-container, body[data-bodyClass=index].nav-active .site-header h1 {
   text-transform: uppercase;
   font-family: "alternate-gothic-no-1-d", sans-serif;
 }
@@ -384,13 +384,13 @@ table {
   font-family: "freight-text-pro", serif;
 }
 
-.font-bold, .resources-list h4, .site-nav ul.nav-list > div > li > a .chapter-numeral, .site-nav .sub-nav li, .site-nav .sub-nav li .chapter-numeral, .chapter-nav .label, .chapter-nav .title, .page-content h3, .aside-container blockquote cite, body[data-bodyClass=index] .site-header h2, body[data-bodyClass=index].nav-active .site-header h2 {
+.font-bold, .resources-nav h4, .resources-list h4, .site-nav ul.nav-list > div > li > a .chapter-numeral, .site-nav .sub-nav li, .site-nav .sub-nav li .chapter-numeral, .chapter-nav .label, .chapter-nav .title, .page-content h3, .aside-container blockquote cite, body[data-bodyClass=index] .site-header h2, body[data-bodyClass=index].nav-active .site-header h2 {
   font-weight: 700;
   letter-spacing: .024em;
   font-family: "freight-big-pro", serif;
 }
 
-.small-caps, .site-nav ul.nav-list > div > li > a .chapter-numeral, .chapter-nav .label, .page-content h4 {
+.small-caps, .resources-nav h4, .site-nav ul.nav-list > div > li > a .chapter-numeral, .chapter-nav .label, .page-content h4 {
   font-variant-caps: small-caps;
   -moz-font-feature-settings: "smcp";
   -webkit-font-feature-settings: "smcp";
@@ -1856,10 +1856,26 @@ body[data-bodyClass=ch4] .header-background-slides .image-2 .credit::before {
   right: 32px;
 }
 .resources-nav h4 {
-  right: 0;
+  left: 6px;
   bottom: 100%;
+  color: #ff9182;
+  display: none;
   font-size: 14px;
+  margin: 0 0 .5em;
   position: absolute;
+  white-space: nowrap;
+  letter-spacing: .06em;
+  text-transform: lowercase;
+}
+@media screen and (min-width: 700px) {
+  .resources-nav h4 {
+    display: block;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .resources-nav h4 {
+    left: 18px;
+  }
 }
 .resources-nav .icon {
   width: 18px;
