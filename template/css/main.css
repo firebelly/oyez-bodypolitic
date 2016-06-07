@@ -3061,7 +3061,7 @@ body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list > div
 }
 body[data-bodyClass=index].nav-active .site-nav.sub-nav-active .sub-nav {
   padding-top: 0;
-  height: calc(70vh - 240px);
+  height: calc(70vh - 132px);
   padding-bottom: 32px;
 }
 @media screen and (min-width: 700px) {
