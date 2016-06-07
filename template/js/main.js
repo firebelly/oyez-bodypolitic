@@ -218,12 +218,10 @@ var Main = (function($) {
         var $thisMediaElement = (mediaElement.id) ? $("#"+mediaElement.id) : $(mediaElement);
 
         $thisMediaElement.closest('.video-section').append('<div class="loading-spinner"></div>');
-        // add event listener
-        mediaElement.addEventListener('loadeddata', function(e) {
-             
+
+        mediaElement.addEventListener('canplay', function(e) {
           $thisMediaElement.closest('.video-section').addClass('loaded');
           $('.video-section .loading-spinner').remove();
-             
         }, false);
         mediaElement.addEventListener("playing", function(){ 
           $thisMediaElement.closest('.video-section').addClass('played');
