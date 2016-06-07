@@ -248,7 +248,9 @@ if($_GET['type']!='ajax'){
 
       </section>
 
-      <section id="ch1-video" class="video-section">
+      <section id="ch1-12" class="video-section">
+        <h3><span class="sub-chapter-numeral">1.12</span>Video: How did the Supreme Court establish the right to privacy used in Roe v. Wade?</h3>
+
         <div class="video-wrapper">
           <video class="video" poster="template/video/nahmod.jpg" width="1920px" height="1072px" preload="auto" controls="controls" style="width:100%; height:100%;">
             <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->

@@ -141,7 +141,9 @@ if($_GET['type']!='ajax'){
 
       </section>
 
-      <section id="ch2-video" class="video-section">
+      <section id="ch2-9" class="video-section">
+        <h3><span class="sub-chapter-numeral">2.9</span>Video: How did abortion law change from Roe to Casey?</h3>
+
         <div class="video-wrapper">
           <video class="video" poster="template/video/heyman.jpg" width="1920px" height="1072px" preload="auto" controls="controls" style="width:100%; height:100%;">
             <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
