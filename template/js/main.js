@@ -118,7 +118,7 @@ var Main = (function($) {
                   document.location.hash = pageHash;
                   setTimeout(function() {
                     _scrollBody($(pageHash), 250, 0);
-                  },500);
+                  },800);
                 } else {
                   _scrollBody($('body'), 250, 0);
                 }
