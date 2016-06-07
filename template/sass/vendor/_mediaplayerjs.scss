@@ -102,9 +102,14 @@
   margin: -37.5px 0 0 -37.5px;
   transition: transform 0.2s ease-in-out;
   background: url(../svgs/play-white-big.svg) no-repeat;
-  background-size: 75px 75px;
+  background-size: 50px 75px;
+  background-position: center center;
   &:hover, &:focus {
     transform: scale(1.1);
+  }
+
+  @include media-sm {
+    background-size: 75px 75px;
   }
 }
 

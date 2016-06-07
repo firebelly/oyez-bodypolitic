@@ -563,12 +563,18 @@ p, a, ul, ol, blockquote {
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
           transition: transform 0.2s ease-in-out;
   background: url(../svgs/play-white-big.svg) no-repeat;
-  background-size: 75px 75px;
+  background-size: 50px 75px;
+  background-position: center center;
 }
 .mejs-overlay-button:hover, .mejs-overlay-button:focus {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
+}
+@media screen and (min-width: 700px) {
+  .mejs-overlay-button {
+    background-size: 75px 75px;
+  }
 }
 
 .no-svg .mejs-overlay-button {
