@@ -2976,7 +2976,7 @@ body[data-bodyClass=index] .site-header h2 {
   display: block;
   line-height: 1;
   font-size: 16px;
-  max-width: 300px;
+  max-width: 200px;
   position: relative;
   text-transform: none;
   margin: 0 0 32px 4px;
@@ -3053,8 +3053,11 @@ body[data-bodyClass=index].nav-active .site-nav.sub-nav-active {
       -ms-transform: translateY(0);
           transform: translateY(0);
 }
-body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list .wrap {
-  height: 240px;
+body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list > div > li > a .chapter-numeral {
+  display: inline-block;
+}
+body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list > div > li > a .chapter-numeral::after {
+  display: none;
 }
 body[data-bodyClass=index].nav-active .site-nav.sub-nav-active .sub-nav {
   padding-top: 0;
