@@ -49,8 +49,8 @@
       <ul class="resources-list corresponding-list">
         <li id="general-abortion" class="-active">
           <ul class="sub-category">
-            <li><p><a href="https://www.guttmacher.org/sites/default/files/pdfs/pubs/2006/05/04/AiWL.pdf" target="_blank">Abortion in Women’s Lives, Guttmacher Institute study</a></p></li>
-            <li><p><a href="http://www.pewresearch.org/fact-tank/2015/10/06/how-abortion-is-regulated-around-the-world/" target="_blank">How abortion is regulated around the world, Pew Research Center</a></p></li>
+            <li><h4><a href="https://www.guttmacher.org/sites/default/files/pdfs/pubs/2006/05/04/AiWL.pdf" target="_blank">Abortion in Women’s Lives</a></h4><p>Guttmacher Institute study</p></li>
+            <li><h4><a href="http://www.pewresearch.org/fact-tank/2015/10/06/how-abortion-is-regulated-around-the-world/" target="_blank">How abortion is regulated around the world</a></h4><p>Pew Research Center</p></li>
           </ul>
         </li>
         <li id="general-people">
@@ -113,80 +113,80 @@
         <li id="general-supreme-court">
           <ul class="sub-category">
             <li>
-              <p><a href="http://www.nytimes.com/2014/06/27/upshot/a-more-nuanced-breakdown-of-the-supreme-court.html?_r=1" target="_blank">A More Nuanced Breakdown of the Supreme Court</a></p>
+              <h4><a href="http://www.nytimes.com/2014/06/27/upshot/a-more-nuanced-breakdown-of-the-supreme-court.html?_r=1" target="_blank">A More Nuanced Breakdown of the Supreme Court</a></h4>
             </li>
             <li>
-              <p><a href="http://www.scotusblog.com/2013/07/scotus-for-law-students-sponsored-by-bloomberg-law-dissenting-from-the-bench/" target="_blank">Dissenting from the bench</a>, <em>SCOTUS for law students</em>, <em>SCOTUSblog</em></p>
+              <h4><a href="http://www.scotusblog.com/2013/07/scotus-for-law-students-sponsored-by-bloomberg-law-dissenting-from-the-bench/" target="_blank">Dissenting from the bench</a></h4><p><em>SCOTUS for law students</em>, <em>SCOTUSblog</em></p>
             </li>
           </ul>
         </li>
         <li id="roe-v-wade">
           <ul class="sub-category">
             <li>
-              <p><a href="https://www.guttmacher.org/about/gpr/2003/03/lessons-roe-will-past-be-prologue" target="_blank">Lessons from Before Roe: Will Past be Prologue?</a>, <em>Guttmacher Policy Review</em></p>
+              <h4><a href="https://www.guttmacher.org/about/gpr/2003/03/lessons-roe-will-past-be-prologue" target="_blank">Lessons from Before Roe: Will Past be Prologue?</a></h4><p><em>Guttmacher Policy Review</em></p>
             </li>
             <li>
-              <p><a href="http://www.nationalrighttolifenews.org/news/2016/01/abortion-defenders-explain-why-roe-v-wade-was-a-terrible-legal-decision-5/#.VxZbcxMrJZ1" target="_blank">Abortion defenders explain why Roe v. Wade was a terrible legal decision</a>, <em>National Right to Life News</em></p>
+              <h4><a href="http://www.nationalrighttolifenews.org/news/2016/01/abortion-defenders-explain-why-roe-v-wade-was-a-terrible-legal-decision-5/#.VxZbcxMrJZ1" target="_blank">Abortion defenders explain why Roe v. Wade was a terrible legal decision</a></h4><p><em>National Right to Life News</em></p>
             </li>
             <li>
-              <p><a href="http://www.endroe.org/roeanalysis.aspx" target="_blank">The Court’s Abortion Jurisprudence: An Analysis of Roe and Related Cases</a>, <em>EndRoe.org</em></p>
+              <h4><a href="http://www.endroe.org/roeanalysis.aspx" target="_blank">The Court’s Abortion Jurisprudence: An Analysis of Roe and Related Cases</a></h4><p><em>EndRoe.org</em></p>
             </li>
             <li>
-              <p><a href="http://www.politico.com/story/2013/05/ruth-bader-ginsburg-roe-v-wade-abortion-091218" target="_blank">Ginsburg: Roe gave opponents target</a>, <em>Politico</em></p>
+              <h4><a href="http://www.politico.com/story/2013/05/ruth-bader-ginsburg-roe-v-wade-abortion-091218" target="_blank">Ginsburg: Roe gave opponents target</a></h4><p><em>Politico</em></p>
             </li>
             <li>
-              <p><a href="http://talkingpointsmemo.com/dc/ruth-bader-ginsburg-roe-wade" target="_blank">Why Justice Ruth Bader Ginsburg Hates Roe v. Wade</a>, <em>Talking Points Memo</em></p>
+              <h4><a href="http://talkingpointsmemo.com/dc/ruth-bader-ginsburg-roe-wade" target="_blank">Why Justice Ruth Bader Ginsburg Hates Roe v. Wade</a></h4><p><em>Talking Points Memo</em></p>
             </li>
             <li>
-              <p><a href="http://www.law.uchicago.edu/news/justice-ruth-bader-ginsburg-offers-critique-roe-v-wade-during-law-school-visit" target="_blank">Justice Ruth Bader Ginsburg Offers Critique of Roe v. Wade During Law School Visit</a>, <em>University of Chicago Law</em></p>
+              <h4><a href="http://www.law.uchicago.edu/news/justice-ruth-bader-ginsburg-offers-critique-roe-v-wade-during-law-school-visit" target="_blank">Justice Ruth Bader Ginsburg Offers Critique of Roe v. Wade During Law School Visit</a></h4><p><em>University of Chicago Law</em></p>
             </li>
           </ul>
         </li>
         <li id="planned-parenthood-v-casey">
           <ul class="sub-category">
             <li>
-              <p><a href="http://www.pbs.org/wnet/supremecourt/rights/landmark_casey.html" target="_blank">Landmark Cases</a>, <em>PBS</em></p>
+              <h4><a href="http://www.pbs.org/wnet/supremecourt/rights/landmark_casey.html" target="_blank">Landmark Cases</a></h4><p><em>PBS</em></p>
             </li>
             <li>
-              <p><a href="http://prospect.org/article/source-our-abortion-woes" target="_blank">The Source of Our Abortion Woes</a>, <em>The American Prospect</em></p>
+              <h4><a href="http://prospect.org/article/source-our-abortion-woes" target="_blank">The Source of Our Abortion Woes</a></h4><p><em>The American Prospect</em></p>
             </li>
             <li>
-              <p><a href="http://www.nytimes.com/2005/11/01/politics/politicsspecial1/abortion-case-from-1991-may-be-central-in-confirmation.html?_r=1" target="_blank">Abortion Case From 1991 May Be Central in Confirmation</a>, <em>New York Times</em></p>
+              <h4><a href="http://www.nytimes.com/2005/11/01/politics/politicsspecial1/abortion-case-from-1991-may-be-central-in-confirmation.html?_r=1" target="_blank">Abortion Case From 1991 May Be Central in Confirmation</a></h4><p><em>New York Times</em></p>
             </li>
           </ul>
         </li>
         <li id="gonzales-v-carhart">
           <ul class="sub-category">
             <li>
-              <p><a href="http://articles.mcall.com/2010-08-24/opinion/mc-justice-ginsburg-gutgold-yv-20100824_1_dissent-law-professor-law-clerks" target="_blank">Ginsburg read dissents aloud when she wanted to send message</a>, <em>Morning Call</em></p>
+              <h4><a href="http://articles.mcall.com/2010-08-24/opinion/mc-justice-ginsburg-gutgold-yv-20100824_1_dissent-law-professor-law-clerks" target="_blank">Ginsburg read dissents aloud when she wanted to send message</a></h4><p><em>Morning Call</em></p>
             </li>
             <li>
-              <p><a href="http://www.pewforum.org/2007/06/14/after-gonzales-v-carhart-the-future-of-abortion-jurisprudence/" target="_blank">After Gonzales v. Carhart: The Future of Abortion Jurisprudence</a>, <em>Pew Research Center</em></p>
+              <h4><a href="http://www.pewforum.org/2007/06/14/after-gonzales-v-carhart-the-future-of-abortion-jurisprudence/" target="_blank">After Gonzales v. Carhart: The Future of Abortion Jurisprudence</a></h4><p><em>Pew Research Center</em></p>
             </li>
             <li>
-              <p><a href="http://www.slate.com/articles/health_and_science/medical_examiner/1998/01/partial_truths_in_the_partialbirthabortion_debate.html" target="_blank">Partial Truths in the Partial-Birth-Abortion Debate</a>, <em>Slate</em></p>
+              <h4><a href="http://www.slate.com/articles/health_and_science/medical_examiner/1998/01/partial_truths_in_the_partialbirthabortion_debate.html" target="_blank">Partial Truths in the Partial-Birth-Abortion Debate</a></h4><p><em>Slate</em></p>
             </li>
             <li>
-              <p><a href="http://www.culturewars.com/CultureWars/Archives/cw_recent/pbabort2.htm" target="_blank">Everything You Need to Know About Partial Birth Abortion</a>, <em>Kenneth D. Whitehead</em></p>
+              <h4><a href="http://www.culturewars.com/CultureWars/Archives/cw_recent/pbabort2.htm" target="_blank">Everything You Need to Know About Partial Birth Abortion</a></h4><p><em>Kenneth D. Whitehead</em></p>
             </li>
             <li>
-              <p><a href="http://www.npr.org/2006/02/21/5168163/partial-birth-abortion-separating-fact-from-spin" target="_blank">'Partial-Birth Abortion:' Separating Fact from Spin</a>, <em>NPR</em></p>
+              <h4><a href="http://www.npr.org/2006/02/21/5168163/partial-birth-abortion-separating-fact-from-spin" target="_blank">'Partial-Birth Abortion:' Separating Fact from Spin</a></h4><p><em>NPR</em></p>
             </li>
           </ul>
         </li>
         <li id="whole-womans-health-v-hellerstedt">
           <ul class="sub-category">
             <li>
-              <p><a href="http://www.scotusblog.com/case-files/cases/whole-womans-health-v-cole/" target="_blank">SCOTUSblog</a></p>
+              <h4><a href="http://www.scotusblog.com/case-files/cases/whole-womans-health-v-cole/" target="_blank">SCOTUSblog</a></h4>
             </li>
             <li>
-              <p><a href="https://rewire.news/article/2016/03/03/whole-womans-health-decision-affect-abortion-care-nationwide/" target="_blank">How the ‘Whole Woman’s Health’ Decision Could Affect Abortion Care Nationwide</a>, <em>Rewire</em></p>
+              <h4><a href="https://rewire.news/article/2016/03/03/whole-womans-health-decision-affect-abortion-care-nationwide/" target="_blank">How the ‘Whole Woman’s Health’ Decision Could Affect Abortion Care Nationwide</a></h4><p><em>Rewire</em></p>
             </li>
             <li>
-              <p><a href="http://www.vogue.com/13412779/supreme-court-abortion-decision-whole-womens-health/" target="_blank">What’s Really at Stake in the Supreme Court’s Abortion Decision</a>, <em>Vogue</em></p>
+              <h4><a href="http://www.vogue.com/13412779/supreme-court-abortion-decision-whole-womens-health/" target="_blank">What’s Really at Stake in the Supreme Court’s Abortion Decision</a></h4><p><em>Vogue</em></p>
             </li>
             <li>
-              <p><a href="http://blogs.harvard.edu/billofhealth/2016/03/03/10-observations-about-the-supreme-court-argument-in-whole-womans-health/" target="_blank">10 Observations About the Supreme Court Argument in Whole Woman’s Health</a>, <em>Harvard Law</em></p>
+              <h4><a href="http://blogs.harvard.edu/billofhealth/2016/03/03/10-observations-about-the-supreme-court-argument-in-whole-womans-health/" target="_blank">10 Observations About the Supreme Court Argument in Whole Woman’s Health</a></h4><p><em>Harvard Law</em></p>
             </li>
           </ul>
         </li>

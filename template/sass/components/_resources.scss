@@ -91,10 +91,6 @@
     transform: translateY(0);
   }
 
-  @include media-sm {
-    padding-top: $global-margin;
-  }
-
   h3 {
     float: left;
     margin-top: 0;
@@ -111,6 +107,9 @@
   }
 
   .resources-nav {
+    h4 {
+      display: none;
+    }
     .icon {
       fill: $brand-primary;
     }
@@ -239,9 +238,6 @@ ul.resources-categories {
 
   .sub-category {
     margin-bottom: 1em;
-    li {
-      margin-bottom: 0;
-    }
   }
 
   &.corresponding-list {
