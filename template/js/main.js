@@ -163,7 +163,6 @@ var Main = (function($) {
         $this = $(this);
 
         var currentPage = document.location.pathname.split('/')[1];
-        console.log(currentPage);
 
         if (newBodyClass === currentPage) {
           _scrollBody($(pageHash), 250, 0);
@@ -186,12 +185,13 @@ var Main = (function($) {
         $('.aside-wrap.audio-active').not(asideWrap).removeClass('audio-active');
         $(this).closest('.aside-wrap').toggleClass('audio-active');
       }
+      if ($(window).width() < 1000) {
+        $('.aside-container.active').not(targetInstance).slideToggle();
+        targetInstance.slideToggle();
+        _scrollBody(targetInstance,250,0);
+      }
       $('.aside-container.active').not(targetInstance).removeClass('active').toggleClass('inactive');
       targetInstance.toggleClass('inactive').toggleClass('active');
-      if ($(window).width() < 1000) {
-        $('.aside-trigger.active').not(targetInstance).slideToggle();
-        targetInstance.slideToggle();
-      }
     });
 
     setTimeout(function(){

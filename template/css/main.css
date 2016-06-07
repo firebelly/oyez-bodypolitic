@@ -2786,7 +2786,7 @@ body.is-exiting .site-header::before {
   opacity: 0;
   width: 100%;
   display: none;
-  font-size: 24px;
+  font-size: 18px;
   padding-top: 16px;
   position: relative;
   letter-spacing: .024em;
@@ -2849,6 +2849,7 @@ body.is-exiting .site-header::before {
     left: 120%;
     padding: 0;
     width: 340px;
+    font-size: 24px;
     position: absolute;
     display: block !important;
   }
