@@ -120,7 +120,7 @@ if($_GET['type']!='ajax'){
 
       <div class="chapter-nav">
         <div class="prev-container">
-          <a href="/ch3#ch3-1" class="prev ajax">
+          <a href="/ch3" class="prev ajax">
             <svg class="icon icon-arrow-left" role="img"><use xlink:href="#icon-arrow-left"></use></svg>
             <span class="label">Previous</span>
             <span class="title">Ch3<br> Gonzales v. Carhart</span>

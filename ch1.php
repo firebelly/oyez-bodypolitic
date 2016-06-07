@@ -272,7 +272,7 @@ if($_GET['type']!='ajax'){
 
       <div class="chapter-nav">
         <div class="next-container">
-          <a href="/ch2#ch2-1" class="next ajax">
+          <a href="/ch2" class="next ajax">
             <svg class="icon icon-arrow-right" role="img"><use xlink:href="#icon-arrow-right"></use></svg>
             <span class="label">Next</span>
             <span class="title">Ch2<br> Planned Parenthood v. Casey</span>
