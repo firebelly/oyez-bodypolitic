@@ -121,6 +121,11 @@
   }
 
   .video-section {
+    position: relative;
+
+    .loading-spinner {
+      position: absolute;
+    }
   
     .video-wrapper {    
       opacity: 0;

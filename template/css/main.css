@@ -2698,6 +2698,12 @@ body.is-exiting .site-header::before {
 .page-content section a {
   color: #ff9182;
 }
+.page-content .video-section {
+  position: relative;
+}
+.page-content .video-section .loading-spinner, .page-content .video-section .mejs-overlay-loading span, .mejs-overlay-loading .page-content .video-section span {
+  position: absolute;
+}
 .page-content .video-section .video-wrapper {
   opacity: 0;
   -webkit-transition: opacity 1s ease-out;
