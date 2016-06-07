@@ -1580,7 +1580,7 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
   -webkit-transition: opacity 1s ease-out;
           transition: opacity 1s ease-out;
 }
-.site-main.hash-loading {
+.site-main.hash-loading, .site-main.loading {
   opacity: 0;
 }
 .site-main .sceneElement {
@@ -2780,6 +2780,10 @@ body.is-exiting .site-header::before {
   margin-bottom: 2em;
 }
 
+audio.hidden {
+  visibility: hidden;
+}
+
 .aside-container {
   top: 0;
   left: 0;
@@ -2793,7 +2797,7 @@ body.is-exiting .site-header::before {
   -webkit-transition: opacity 1s ease-out;
           transition: opacity 1s ease-out;
 }
-.aside-container.loaded, .aside-container.active {
+.aside-container.active {
   opacity: 1;
 }
 .aside-container p,
@@ -3072,13 +3076,15 @@ body[data-bodyClass=index].nav-active .site-nav.sub-nav-active .sub-nav {
   body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list {
     height: 122px;
   }
-}
-@media screen and (min-width: 700px) and (min-width: 700px) {
   body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list > div > li {
     font-size: 24px;
   }
-}
-@media screen and (min-width: 700px) {
+  body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list > div > li > a .chapter-numeral {
+    display: block;
+  }
+  body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list > div > li > a .chapter-numeral::after {
+    display: block;
+  }
   body[data-bodyClass=index].nav-active .site-nav.sub-nav-active ul.nav-list .wrap {
     height: 122px;
   }

@@ -97,8 +97,11 @@ var Main = (function($) {
             }, 
             success: function (data) {
               clearTimeout(timeout);
-              _hideLoading();
               $main.html(data);
+              setTimeout(function(){
+                $main.removeClass('loading');
+                _hideLoading();
+              },500);
               $('body').removeClass('is-exiting').addClass('is-entering');
               if ($this.is('.next')) {
                 $('.sceneElement').removeClass('moveLeft').addClass('moveRight');
@@ -108,6 +111,7 @@ var Main = (function($) {
               }
             },
             complete: function(){
+
 
               // Set scroll to hash if needed
                 if (pageHash) {
@@ -167,7 +171,13 @@ var Main = (function($) {
         if (newBodyClass === currentPage) {
           _scrollBody($(pageHash), 250, 0);
         } else {
-          loadContent();
+          console.log(currentPage);
+          $main.addClass('loading');
+          if(currentPage === '') {
+            loadContent();
+          } else {
+            setTimeout(loadContent,500);
+          }
         }
 
         e.preventDefault();
@@ -193,23 +203,24 @@ var Main = (function($) {
       $('.aside-container.active').not(targetInstance).removeClass('active').toggleClass('inactive');
       targetInstance.toggleClass('inactive').toggleClass('active');
     });
-
-    setTimeout(function(){
-      $('.aside-container').addClass('loaded');
-    },1500);
   }
 
   function _initMediaPlayer() {
     $('audio').mediaelementplayer({
       startVolume: 1,
       features: ['playpause','progress','current'],
-      success:  function (mediaElement, domObject) { 
+      success:  function (mediaElement, domObject) {
         mediaElement.addEventListener("ended", function(e){ 
           var $thisMediaElement = (mediaElement.id) ? $("#"+mediaElement.id) : $(mediaElement);
           $thisMediaElement.closest('.aside-container').removeClass('active').addClass('inactive');
         });
       }
-    }); 
+    });
+
+    $('audio').addClass('hidden');
+    setTimeout(function(){
+      $('audio').removeClass('hidden');
+    }, 500);
 
     $('video').mediaelementplayer({
       startVolume: 1,

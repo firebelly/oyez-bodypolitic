@@ -15,7 +15,7 @@
           <li><a href="/ch1#ch1-9" class="ajax"><span class="chapter-numeral">1.9</span> What did the decision say?</a></li>
           <li><a href="/ch1#ch1-10" class="ajax"><span class="chapter-numeral">1.10</span> What did the dissents say?</a></li>
           <li><a href="/ch1#ch1-11" class="ajax"><span class="chapter-numeral">1.11</span> What happened next?</a></li>
-          <li><a href="/ch1#ch1-video" class="ajax">Video</a></li>
+          <li><a href="/ch1#ch1-video" class="ajax">Video: How did the Supreme Court establish the right to privacy used in Roe v. Wade?</a></li>
           <li><a href="/ch1#ch1-quicktake" class="ajax">Quick Take</a></li>
         </ul>
       </li>
@@ -30,7 +30,7 @@
           <li><a href="/ch2#ch2-6" class="ajax"><span class="chapter-numeral">2.6</span> What did the decision say?</a></li>
           <li><a href="/ch2#ch2-7" class="ajax"><span class="chapter-numeral">2.7</span> What did the dissent say?</a></li>
           <li><a href="/ch2#ch2-8" class="ajax"><span class="chapter-numeral">2.8</span> What happened next?</a></li>
-          <li><a href="/ch2#ch2-video" class="ajax">Video</a></li>
+          <li><a href="/ch2#ch2-video" class="ajax">Video: How did abortion law change from Roe to Casey?</a></li>
           <li><a href="/ch2#ch2-quicktake" class="ajax">Quick Take</a></li>
         </ul>
       </li>
@@ -60,7 +60,7 @@
           <li><a href="/ch4#ch4-6" class="ajax"><span class="chapter-numeral">4.6</span> What could the decision say?</a></li>
           <li><a href="/ch4#ch4-7" class="ajax"><span class="chapter-numeral">4.7</span> What did the dissent say?</a></li>
           <li><a href="/ch4#ch4-8" class="ajax"><span class="chapter-numeral">4.8</span> What implications does the decision have for similar laws in other states?</a></li>
-          <li><a href="/ch4#ch4-video" class="ajax">Video</a></li>
+          <li><a href="/ch4#ch4-video" class="ajax">Video: Why is abortion still so contentious?</a></li>
           <li><a href="/ch4#ch4-quicktake" class="ajax">Quick Take</a></li>
         </ul>
       </li>
