@@ -9,6 +9,14 @@
   position: absolute;
   right: $global-mobile-margin;
 
+  h4 {
+    right: 0;
+    bottom: 100%;
+    font-size: 14px;
+    position: absolute;
+    @extend .font-display;
+  }
+
   .icon {
     width: 18px;
     height: 18px;

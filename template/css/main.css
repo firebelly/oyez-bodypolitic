@@ -374,7 +374,7 @@ table {
   border-spacing: 0;
 }
 
-.font-display, .site-header h1, .resources-container h3, ul.resources-categories h4, .site-nav ul.nav-list > div > li, .page-content h5, .aside-container, body[data-bodyClass=index].nav-active .site-header h1 {
+.font-display, .site-header h1, .resources-nav h4, .resources-container h3, ul.resources-categories h4, .site-nav ul.nav-list > div > li, .page-content h5, .aside-container, body[data-bodyClass=index].nav-active .site-header h1 {
   text-transform: uppercase;
   font-family: "alternate-gothic-no-1-d", sans-serif;
 }
@@ -1854,6 +1854,12 @@ body[data-bodyClass=ch4] .header-background-slides .image-2 .credit::before {
   z-index: 1100;
   position: absolute;
   right: 32px;
+}
+.resources-nav h4 {
+  right: 0;
+  bottom: 100%;
+  font-size: 14px;
+  position: absolute;
 }
 .resources-nav .icon {
   width: 18px;

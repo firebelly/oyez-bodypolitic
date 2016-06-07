@@ -6342,7 +6342,6 @@ var Main = (function($) {
         if (newBodyClass === currentPage) {
           _scrollBody($(pageHash), 250, 0);
         } else {
-          console.log(currentPage);
           $main.addClass('loading');
           if(currentPage === '') {
             loadContent();
@@ -6381,12 +6380,35 @@ var Main = (function($) {
       startVolume: 1,
       features: ['playpause','progress','current'],
       success:  function (mediaElement, domObject) {
+        var $thisMediaElement = (mediaElement.id) ? $("#"+mediaElement.id) : $(mediaElement);
+
+        $document.on('click', '.aside-trigger', function() {
+          mediaElement.pause();
+        });
+
+        mediaElement.addEventListener('playing', function(e) {
+          $thisMediaElement.closest('.aside-container').addClass('playing');
+        });
+        mediaElement.addEventListener('pause', function(e) {
+          $thisMediaElement.closest('.aside-container').removeClass('playing');
+        });
+
         mediaElement.addEventListener("ended", function(e){ 
-          var $thisMediaElement = (mediaElement.id) ? $("#"+mediaElement.id) : $(mediaElement);
-          $thisMediaElement.closest('.aside-container').removeClass('active').addClass('inactive');
+          $thisMediaElement.closest('.aside-container').removeClass('active playing').addClass('inactive');
         });
       }
     });
+
+    // Play and pause the audio
+    $document.on('click', '.aside-trigger', function() {
+      var thisTargetAside = $(this).attr('data-aside'),
+          $thisAside = $('.aside-container[data-aside="'+thisTargetAside+'"]');
+
+      if (!$thisAside.is('.playing') && $thisAside.is('.aside_audio')) {
+        $thisAside.find('.mejs-controls button').click();
+      }
+    });
+
 
     $('audio').addClass('hidden');
     setTimeout(function(){
