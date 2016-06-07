@@ -30,14 +30,14 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“Such an exception in this case is no departure from Casey, but simply a straightforward application of its holding.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Stephen G. Breyer, Opinion of the Court</cite>
             </blockquote>
           </aside> 
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-2">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“The Court, as I read its opinion, accedes his [Dr. Carhart's] views, misunderstanding Casey and the authorities it confirmed.”</p>
-              <cite>— quote from dissent</cite>
+              <cite>— Justice Anthony M. Kennedy, Dissent</cite>
             </blockquote>
           </aside> 
         </div>
@@ -78,15 +78,15 @@ if($_GET['type']!='ajax'){
           <p>A big issue was about the amount of deference that courts are supposed to give to Congressional findings regarding medical facts. If <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>Congress says</span> that the D&X procedure is never medically necessary, but some members of the <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>medical community</span> disagree, should courts defer to the findings of Congress or to the doctors? They also debated whether there was enough difference from Carhart I to rule <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>differently</span>. (Plus there was an unusual <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-4"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>outburst</span> from an observer in the courtroom.)</p>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-1">
             <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-1.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“Congress held six hearings over four different Congresses and heard from dozens of witnesses in determining that partial birth abortions are never medically necessary, pose health risks, and should be banned. Under familiar principles of deference to congressional fact finding, those determinations should be upheld as long as they represent reasonable inferences based on substantial evidence in the congressional record.”</blockquote>
+            <blockquote><p>“Congress held six hearings over four different Congresses and heard from dozens of witnesses in determining that partial birth abortions are never medically necessary, pose health risks, and should be banned. Under familiar principles of deference to congressional fact finding, those determinations should be upheld as long as they represent reasonable inferences based on substantial evidence in the congressional record.”</p><cite>— Paul D. Clement, advocate for Gonzales</cite></blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-2">
             <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-2.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“Now as I look at the record, I see many, many, many doctors telling Congress and everybody else that it is necessary, and safe. And I see other doctors telling-- Congress primarily, but in court, too, that it isn't necessary, ever for safety.”</blockquote>
+            <blockquote><p>“Now as I look at the record, I see many, many, many doctors telling Congress and everybody else that it is necessary, and safe. And I see other doctors telling-- Congress primarily, but in court, too, that it isn't necessary, ever for safety.”</p><cite>— Justice Stephen G. Breyer</cite></blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-3">
             <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-3.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“So if giving deference to Nebraska, we reach that conclusion there, and if the deference that is owed is the same, and if the evidence is about the same on both sides, how can we reach a different conclusion here?”</blockquote>
+            <blockquote><p>“So if giving deference to Nebraska, we reach that conclusion there, and if the deference that is owed is the same, and if the evidence is about the same on both sides, how can we reach a different conclusion here?”</p><cite>— Justice Stephen G. Breyer</cite></blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-4">
             <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-4.mp3" type="audio/mp3" controls></audio>
@@ -105,7 +105,7 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“The medical uncertainty over whether the Act’s prohibition creates significant health risks provides a sufficient basis to conclude this facial attack that the Act does not most an undue burden. The conclusion that the Act does not impose an undue burden is also supported by other considerations. Alternatives are available to the prohibited procedure.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Anthony M. Kennedy, Opinion of the Court</cite>
             </blockquote>
           </aside>
 
@@ -122,7 +122,7 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“Notably, the concerns expressed are untethered to any ground genuinely serving the Government's interest in preserving life. By allowing such concerns to carry the day and case, overriding fundamental rights, the Court dishonors our precedent.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Ruth Bader Ginsburg, Dissent</cite>
             </blockquote>
           </aside>
           <aside class="aside-container aside_info inactive" data-aside="dissent-quote-1">

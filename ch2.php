@@ -46,15 +46,15 @@ if($_GET['type']!='ajax'){
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-1">
             <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-1.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“Never before has this Court bestowed and taken back a fundamental right that has been part of the settled rights and expectations of literally millions of Americans for nearly two decades.”</blockquote>
+            <blockquote><p>“Never before has this Court bestowed and taken back a fundamental right that has been part of the settled rights and expectations of literally millions of Americans for nearly two decades.”</p><cite>— Kathryn Kolbert, advocate for Planned Parenthood</cite></blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-2">
             <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-2.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“No, I think you have to ignore what the petitioners have posited, which is a worst-case analysis scenario, and you have to look and see if it could be constitutionally applied and value-tied to anyone, and we submit that in this particular instance the record reflects that right now, in Pennsylvania, 50,000 abortions, 20 percent of those women are married and 95 percent of those women notify their husbands.Therefore, only 1 percent of the women are not, in Pennsylvania, notifying their husbands now, and the act's not even in effect.There is no broad practical effect in the Pennsylvania statute to prohibiting abortion for those women.”</blockquote>
+            <blockquote><p>“No, I think you have to ignore what the petitioners have posited, which is a worst-case analysis scenario, and you have to look and see if it could be constitutionally applied and value-tied to anyone, and we submit that in this particular instance the record reflects that right now, in Pennsylvania, 50,000 abortions, 20 percent of those women are married and 95 percent of those women notify their husbands.Therefore, only 1 percent of the women are not, in Pennsylvania, notifying their husbands now, and the act's not even in effect.There is no broad practical effect in the Pennsylvania statute to prohibiting abortion for those women.”</p><cite>— Ernest D. Preate, Jr., advocate for Casey</cite></blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-3">
             <audio class="audioplayer" src="template/audio/PlannedParenthood_Casey_argument-3.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“But I think that the key point is that a number of the Justices of this Court have said that regardless of that legal question, that constitutional question, that the State does have a compelling interest in the potential life, in fetal life, and that that interest runs throughout pregnancy.”</blockquote>
+            <blockquote><p>“But I think that the key point is that a number of the Justices of this Court have said that regardless of that legal question, that constitutional question, that the State does have a compelling interest in the potential life, in fetal life, and that that interest runs throughout pregnancy.”</p><cite>— Kenneth W. Starr, amicus curiae for the United States</cite></blockquote>
           </aside>
 
         </div>
@@ -72,14 +72,14 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“A finding of an undue burden is a shorthand for the conclusion that a state regulation has the purpose or effect of placing a substantial obstacle in the path of a woman seeking an abortion of a nonviable fetus. A statute with this purpose is invalid because the means chosen by the State to further the interest in potential life must be calculated to inform the woman's free choice, not hinder it. And a statute which, while furthering the interest in potential life or some other valid state interest, has the effect of placing a substantial obstacle in the path of a woman's choice cannot be considered a permissible means of serving its legitimate ends.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Opinion of the Court</cite>
             </blockquote>
           </aside>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-2">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“Within the bounds of normal stare decisis analysis, then, and subject to the considerations on which it customarily turns, the stronger argument is for affirming Roe’s central holding, with whatever degree of personal reluctance any of us may have, not for overruling it.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Opinion of the Court</cite>
             </blockquote>
           </aside>
         </div>
@@ -90,7 +90,7 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“In well-functioning marriages, spouses discuss important intimate decisions such as whether to bear a child. But there are millions of women in this country who are the victims of regular physical and psychological abuse at the hands of their husbands. Should these women become pregnant, they may have very good reasons for not wishing to inform their husbands of their decision to obtain an abortion. Many may have justifiable fears of physical abuse, but may be no less fearful of the consequences of reporting prior abuse to the Commonwealth of Pennsylvania.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Opinion of the Court</cite>
             </blockquote>
           </aside>          
         </div>
@@ -101,7 +101,7 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“The viability line also has, as a practical matter, an element of fairness. In some broad sense it might be said that a woman who fails to act before viability has consented to the State's intervention on behalf of the developing child.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Opinion of the Court</cite>
             </blockquote>
           </aside>       
         </div>
@@ -117,7 +117,7 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“That is, quite simply, the issue in these cases: not whether the power of a woman to abort her unborn child is a ‘liberty’ in the absolute sense; or even whether it is a liberty of great importance to many women. Of course it is both. The issue is whether it is a liberty protected by the Constitution of the United States. I am sure it is not.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Antonin Scalia, Dissent</cite>
             </blockquote>
           </aside>   
         </div>

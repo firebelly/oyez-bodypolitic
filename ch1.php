@@ -66,14 +66,14 @@ if($_GET['type']!='ajax'){
             <li><span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>Physicians’ rights</span>. There were no other common medical procedures that doctors could be punished for performing. The Texas statute required physicians to determine whether a woman’s life was at risk, permitting them to perform an abortion. Overall, the laws were vague enough to worry doctors about the legality of the procedure in each case.</li>
             <aside class="aside-container aside_audio inactive" data-aside="oral-argument-1">
               <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-1.mp3" type="audio/mp3" controls></audio>
-              <blockquote>“We submit that a doctor is not used to being restricted to acting only when it's for the purpose of saving the life of the woman, and that health is a continuum which runs into life.And a doctor in our State does not know whether he can perform an abortion only when death is imminent or when the woman's life would be shortened. He does not know if the death must be certain, or if it could be an increase in probability of her death. So here, in the District, doctors are able to exercise their normal matter of judgment, whether or not the health of the woman, mental or physical will be affected. But, in Texas, we tell the doctor that unless he can decide whether it's necessary for the purpose of saving her life, and for no other reason, that he is subject to criminal sanctions.”</blockquote>
+              <blockquote><p>“We submit that a doctor is not used to being restricted to acting only when it's for the purpose of saving the life of the woman, and that health is a continuum which runs into life.And a doctor in our State does not know whether he can perform an abortion only when death is imminent or when the woman's life would be shortened. He does not know if the death must be certain, or if it could be an increase in probability of her death. So here, in the District, doctors are able to exercise their normal matter of judgment, whether or not the health of the woman, mental or physical will be affected. But, in Texas, we tell the doctor that unless he can decide whether it's necessary for the purpose of saving her life, and for no other reason, that he is subject to criminal sanctions.”</p><cite>— Sarah R. Weddington, advocate for Roe</cite></blockquote>
             </aside>
           </div>
           <div class="aside-wrap">
             <li><span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>Disruption of woman’s life</span>. At the time, women could be asked to leave their jobs when they got pregnant, and maternity leave was not generally offered. There was no legal requirement for employers to rehire these women after they gave birth.</li>
             <aside class="aside-container aside_audio inactive" data-aside="oral-argument-2">
               <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-2.mp3" type="audio/mp3" controls></audio>
-              <blockquote>“So, a pregnancy to a woman is perhaps one of the most determinative aspects of her life. It disrupts her body. It disrupts her education. It disrupts her employment. And it often disrupts her entire family life. And we feel that, because of the impact on the woman, this certainly and as far as there are any rights which are fundamental is a matter which is of such fundamental and basic concern to the woman involved that she should be allowed to make the choice as to whether to continue or to terminate her pregnancy”</blockquote>
+              <blockquote><p>“So, a pregnancy to a woman is perhaps one of the most determinative aspects of her life. It disrupts her body. It disrupts her education. It disrupts her employment. And it often disrupts her entire family life. And we feel that, because of the impact on the woman, this certainly and as far as there are any rights which are fundamental is a matter which is of such fundamental and basic concern to the woman involved that she should be allowed to make the choice as to whether to continue or to terminate her pregnancy”</p><cite>— Sarah R. Weddington, advocate for Roe</cite></blockquote>
             </aside>
           </div>
         </ol>
@@ -116,7 +116,7 @@ if($_GET['type']!='ajax'){
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-3">
             <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-3.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“As we talked last time, they are not subject in Texas to any kind of criminal prosecution whether the woman performs self-abortion, whether she goes to a doctor, finds someone who will perform it on her. She is guilty of no crime whatsoever and, yet, the state tries to allege that its purpose in the statute was to protect the fetus. If that’s true, the fact the woman is guilty of no crime is not a reasonable kind of — it does not reasonably follow.”</blockquote>
+            <blockquote><p>“As we talked last time, they are not subject in Texas to any kind of criminal prosecution whether the woman performs self-abortion, whether she goes to a doctor, finds someone who will perform it on her. She is guilty of no crime whatsoever and, yet, the state tries to allege that its purpose in the statute was to protect the fetus. If that’s true, the fact the woman is guilty of no crime is not a reasonable kind of — it does not reasonably follow.”</p><cite>— Sarah R. Weddington, advocate for Roe</cite></blockquote>
           </aside>
         </div>
 
@@ -124,15 +124,15 @@ if($_GET['type']!='ajax'){
           <p>Jay Floyd, the advocate for Texas in the first case, started out with <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-4"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>a joke that fell flat</span>. He argued that the state had an interest in protecting its future citizens, and in protecting the safety <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-5"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>of the mother</span>. Robert C. Flowers, who argued for Texas in round 2, continued this line of argument and <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-6"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>defended the punishment</span> for abortion providers.</p>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-4">
             <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-4.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“Mr. Chief Justice, may it please the Court. It's an old joke, but when a man argues against two beautiful ladies like this, they are going to have the last word.”</blockquote>
+            <blockquote><p>“Mr. Chief Justice, may it please the Court. It's an old joke, but when a man argues against two beautiful ladies like this, they are going to have the last word.”</p><cite>— Jay Floyd, advocate for Wade</cite></blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-5">
             <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-5.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“There have been statistics furnished to this Court in various briefs from various groups, and from medical societies of different groups of physicians and gynecologists, or whatever it may be. These statistics have not shown me, for example, that abortion is safer than normal childbirth. They have not shown me that there are not emotional problems that are very important, resulting from an abortion. The protection of the mother, at one time, may still be the primary - but the policy considerations, Mr. Justice, would seem to me to be for the State legislature to make a decision.”</blockquote>
+            <blockquote><p>“There have been statistics furnished to this Court in various briefs from various groups, and from medical societies of different groups of physicians and gynecologists, or whatever it may be. These statistics have not shown me, for example, that abortion is safer than normal childbirth. They have not shown me that there are not emotional problems that are very important, resulting from an abortion. The protection of the mother, at one time, may still be the primary - but the policy considerations, Mr. Justice, would seem to me to be for the State legislature to make a decision.”</p><cite>— Jay Floyd, advocate for Wade</cite></blockquote>
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-6">
             <audio class="audioplayer" src="template/audio/roe-v-wade-oral-arguments-6.mp3" type="audio/mp3" controls></audio>
-            <blockquote>“Because this is the only type of operation that would take another human life.”</blockquote>
+            <blockquote><p>“Because this is the only type of operation that would take another human life.”</p><cite>— Robert C. Flowers, advocate for Wade</cite></blockquote>
           </aside>
         </div>
       </section>
@@ -146,28 +146,28 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“Pointing to the absence of legislative history to support the contention, they claim that most state laws were designed solely to protect the woman. Because medical advances have lessened this concern, at least with respect to abortion in early pregnancy, they argue that with respect to such abortions the laws can no longer be justified by any state interest.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Harry A. Blackmun, Opinion of the Court</cite>
             </blockquote>
           </aside>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-2">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“We, therefore, conclude that the right of personal privacy includes the abortion decision, but that this right is not unqualified, and must be considered against important state interests in regulation.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Harry A. Blackmun, Opinion of the Court</cite>
             </blockquote>
           </aside>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-3">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“The decision vindicates the right of the physician to administer medical treatment according to his professional judgment up to the points where important state interests provide compelling justifications for intervention. Up to those points, the abortion decision in all its aspects is inherently, and primarily, a medical decision, and basic responsibility for it must rest with the physician.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Harry A. Blackmun, Opinion of the Court</cite>
             </blockquote>
           </aside>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-4">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“In assessing the State's interest, recognition may be given to the less rigid claim that as long as at least potential life is involved, the State may assert interests beyond the protection of the pregnant woman alone.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Harry A. Blackmun, Opinion of the Court</cite>
             </blockquote>
           </aside>
           <aside class="aside-container aside_info inactive" data-aside="viability-stage">
@@ -182,7 +182,7 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“We need not resolve the difficult question of when life begins. When those trained in the respective disciplines of medicine, philosophy, and theology are unable to arrive at any consensus, the judiciary, at this point in the development of man's knowledge, is not in a position to speculate as to the answer.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Harry A. Blackmun, Opinion of the Court</cite>
             </blockquote>
           </aside>
         </div>
@@ -197,7 +197,7 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“The Court apparently values the convenience of the pregnant woman more than the continued existence and development of the life or potential life that she carries.”</p>
-              <cite>— quote from opinion</cite>
+              <cite>— Justice Byron R. White, Dissent</cite>
             </blockquote>
           </aside>          
         </div>
@@ -215,7 +215,7 @@ if($_GET['type']!='ajax'){
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
               <p>“To reach its result, the Court necessarily has had to find within the scope of the Fourteenth Amendment a right that was apparently completely unknown to the drafters of the Amendment.”</p>
-              <cite>— quote from dissent</cite>
+              <cite>— Justice William H. Rehnquist, Dissent</cite>
             </blockquote>
           </aside>    
         </div>
