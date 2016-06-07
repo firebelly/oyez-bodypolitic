@@ -219,7 +219,7 @@ var Main = (function($) {
 
         $thisMediaElement.closest('.video-section').append('<div class="loading-spinner"></div>');
 
-        mediaElement.addEventListener('canplay', function(e) {
+        mediaElement.addEventListener('progress', function(e) {
           $thisMediaElement.closest('.video-section').addClass('loaded');
           $('.video-section .loading-spinner').remove();
         }, false);
