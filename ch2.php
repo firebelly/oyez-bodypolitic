@@ -17,14 +17,14 @@ if($_GET['type']!='ajax'){
       <section id="ch2-2">
         <h3><span class="sub-chapter-numeral">2.2</span>What was the Pennsylvania law in question?</h3>
 
-        <p>In 1982, Pennsylvania enacted the Pennsylvania Abortion Control Act, which established regulations for women seeking abortions. These included requirements that married women notify their husbands, that women under 18 obtain parental permission, that women wait 24 hours between an initial consultation and the procedure, and that facilities report the number of abortions performed. The law’s supporters argued that it protected women’s health and safety while staying within the bounds of the Constitution as defined in Roe v. Wade.</p>
+        <p>In 1982, Pennsylvania enacted the Pennsylvania Abortion Control Act, which established regulations for women seeking abortions. These included requirements that married women notify their husbands, that women under 18 obtain parental permission, that women wait 24 hours between an initial consultation and the procedure, and that facilities report the number of abortions performed. The law’s supporters argued that it protected women’s health and safety while staying within the bounds of the Constitution as defined in <em>Roe v. Wade</em>.</p>
 
       </section>
 
       <section id="ch2-3">
         <h3><span class="sub-chapter-numeral">2.3</span>What was the case against the law?</h3>
 
-        <p>The challengers, comprised of several abortion clinics and physicians, argued that all of these restrictions violated a woman’s right to an abortion as guaranteed by Roe v. Wade. The challengers explained that women who would be forced to notify their husbands risked psychological and physical abuse. The mandatory parental permission provision required at least one doctor visit by the parents, potentially delaying the process. The challengers additionally argued that the law’s mandatory waiting period ensured each woman would have to make two trips to an abortion clinic; this would prove to be very difficult, if not impossible, for women from rural areas traveling hundreds of miles for the procedure. Even though the question of whether to overturn Roe was not directly asked, it was being implicitly debated.</p>
+        <p>The challengers, comprised of several abortion clinics and physicians, argued that all of these restrictions violated a woman’s right to an abortion as guaranteed by <em>Roe v. Wade</em>. The challengers explained that women who would be forced to notify their husbands risked psychological and physical abuse. The mandatory parental permission provision required at least one doctor visit by the parents, potentially delaying the process. The challengers additionally argued that the law’s mandatory waiting period ensured each woman would have to make two trips to an abortion clinic; this would prove to be very difficult, if not impossible, for women from rural areas traveling hundreds of miles for the procedure. Even though the question of whether to overturn Roe was not directly asked, it was being implicitly debated.</p>
 
       </section>
 
@@ -59,7 +59,7 @@ if($_GET['type']!='ajax'){
 
         </div>
 
-        <p>An interesting point that came up in arguments concerned “undue burden”, which had been briefly mentioned in a previous opinion, <a href="https://www.oyez.org/cases/1982/81-746" target="_blank">City of Akron v. Akron Center for Reproductive Health</a> (1983). The phrase referred to measures meant to discourage abortions, and to what degree these measures would be considered overly restrictive. Justice John Paul Stevens asked whether the burden counted quantitatively, meaning the number of people affected, or qualitatively, meaning the level of burden on one person specifically. The state argued it was quantitative, whereas Planned Parenthood argued for qualitative.</p>
+        <p>An interesting point that came up in arguments concerned “undue burden”, which had been briefly mentioned in a previous opinion, <a href="https://www.oyez.org/cases/1982/81-746" target="_blank"><em>City of Akron v. Akron Center for Reproductive Health</em></a> (1983). The phrase referred to measures meant to discourage abortions, and to what degree these measures would be considered overly restrictive. Justice John Paul Stevens asked whether the burden counted quantitatively, meaning the number of people affected, or qualitatively, meaning the level of burden on one person specifically. The state argued it was quantitative, whereas Planned Parenthood argued for qualitative.</p>
 
       </section>
 
@@ -160,8 +160,8 @@ if($_GET['type']!='ajax'){
         <h4>Quick take:</h4>
 
         <ul>
-          <li>This case is actually more in effect in terms of federal abortion law than Roe v. Wade is. It established what standards abortion laws are judged by, and the viability test replaced the trimester standard.</li>
-          <li>The justices originally voted in conference to overturn Roe v. Wade, and Chief Justice Rehnquist was going to write the opinion. Justice Harry Blackmun had already begun writing his dissent when Justices O’Connor, Kennedy, and Souter formed their coalition to find a middle ground and preserve Roe while tightening regulations.</li>
+          <li>This case is actually more in effect in terms of federal abortion law than <em>Roe v. Wade</em> is. It established what standards abortion laws are judged by, and the viability test replaced the trimester standard.</li>
+          <li>The justices originally voted in conference to overturn <em>Roe v. Wade</em>, and Chief Justice Rehnquist was going to write the opinion. Justice Harry Blackmun had already begun writing his dissent when Justices O’Connor, Kennedy, and Souter formed their coalition to find a middle ground and preserve Roe while tightening regulations.</li>
         </ul>
       </section>
 

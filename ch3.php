@@ -10,7 +10,7 @@ if($_GET['type']!='ajax'){
       <section id="ch3-1">
         <h3><span class="sub-chapter-numeral">3.1</span>What happened after Casey?</h3>
 
-        <p>Not much changed on the national level after the Court decided Planned Parenthood v. Casey. Abortion was still legal, and states were still able to regulate the process. Although the Supreme Court had introduced the “undue burden” standard for what regulations were acceptable, it did not elaborate further on what an undue burden was.</p>
+        <p>Not much changed on the national level after the Court decided <em>Planned Parenthood v. Casey</em>. Abortion was still legal, and states were still able to regulate the process. Although the Supreme Court had introduced the “undue burden” standard for what regulations were acceptable, it did not elaborate further on what an undue burden was.</p>
 
       </section>
 
@@ -25,7 +25,7 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">3.3</span>What was Dr. Carhart’s first Supreme Court case?</h3>
 
         <div class="aside-wrap">
-          <p>In 1998, Dr. Carhart sued the state of Nebraska, challenging a law banning intact dilation and extraction (D&X), a common late-term abortion procedure. The procedure was referred to by some as “partial-birth abortion.” His case went to the Supreme Court as <a href="https://www.oyez.org/cases/1999/99-830" target="_blank">Stenberg v. Carhart</a> (often referred to as Carhart I) in 2000. In this case, the Court ruled 5-4 that the Nebraska statute was unconstitutional under the standards set in Roe and Casey. Justice Stephen Breyer authored the opinion, which relied heavily on Dr. Carhart’s medical testimony that D&X was sometimes the safest method to terminate a late-term pregnancy and could be <span class="aside-trigger first-item" data-aside="opinion-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>medically necessary</span>. Justice Anthony Kennedy’s dissent criticized the majority’s reliance on <span class="aside-trigger first-item" data-aside="opinion-quote-2"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Dr. Carhart’s expertise</span>, and asserted that the majority opinion misrepresented the details of the D&X procedure.</p>
+          <p>In 1998, Dr. Carhart sued the state of Nebraska, challenging a law banning intact dilation and extraction (D&X), a common late-term abortion procedure. The procedure was referred to by some as “partial-birth abortion.” His case went to the Supreme Court as <a href="https://www.oyez.org/cases/1999/99-830" target="_blank"><em>Stenberg v. Carhart</em></a> (often referred to as Carhart I) in 2000. In this case, the Court ruled 5-4 that the Nebraska statute was unconstitutional under the standards set in Roe and Casey. Justice Stephen Breyer authored the opinion, which relied heavily on Dr. Carhart’s medical testimony that D&X was sometimes the safest method to terminate a late-term pregnancy and could be <span class="aside-trigger first-item" data-aside="opinion-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>medically necessary</span>. Justice Anthony Kennedy’s dissent criticized the majority’s reliance on <span class="aside-trigger first-item" data-aside="opinion-quote-2"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Dr. Carhart’s expertise</span>, and asserted that the majority opinion misrepresented the details of the D&X procedure.</p>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-1">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
@@ -146,7 +146,7 @@ if($_GET['type']!='ajax'){
         <h4>Quick take:</h4>
 
         <ul>
-          <li>The decisions in the Carhart cases showed a lack of teeth in their decision in Planned Parenthood v. Casey. In essence, “undue burden” was a standard that was proving difficult to define.</li>
+          <li>The decisions in the Carhart cases showed a lack of teeth in their decision in <em>Planned Parenthood v. Casey</em>. In essence, “undue burden” was a standard that was proving difficult to define.</li>
           <li>One argument as to the change in doctrine between Casey and the Carhart cases - or even the difference between the Carhart cases - is that it was due more to the makeup of the Court rather than a shift in public opinion.</li>
         </ul>
       </section>

@@ -5,7 +5,7 @@ if($_GET['type']!='ajax'){
 ?>
 <div class="wrap">
   <div class="sceneElement" data-viewport="0">
-    <h2 class="visually-hidden">Ch 1 Roe V. Wade</h2>
+    <h2 class="visually-hidden">Ch 1 <em>Roe V. Wade</em></h2>
     <div class="page-content">
       <section id="ch1-1">
         <h3><span class="sub-chapter-numeral">1.1</span>Who was Roe?</h3>
@@ -28,9 +28,9 @@ if($_GET['type']!='ajax'){
       <section id="ch1-3">
         <h3><span class="sub-chapter-numeral">1.3</span>What had the Supreme Court decided up to that point?</h3>
         <ul>
-          <li><a href="https://www.oyez.org/cases/1964/496" target="_blank">Griswold v. Connecticut</a> (1965): States may not restrict a married couple’s ability to be counseled on and access contraception. This landmark case was the first to articulate a Constitutional right to privacy.</li>
-          <li><a href="https://www.oyez.org/cases/1971/70-17" target="_blank">Eisenstadt v. Baird</a> (1972): Unmarried individuals may not be denied counsel on or having access to contraception. This decision relied on the Equal Protection Clause of the Constitution's Fourteenth Amendment, protecting the rights of unmarried individuals.</li>
-          <li><a href="https://www.oyez.org/cases/1970/84" target="_blank">United States v. Vuitch</a> (1971): A DC law that prohibited abortion unless “necessary for the preservation of the mother’s life or health” was not unconstitutionally vague. The Court also found that the burden of proof in finding an abortion unnecessary was on the prosecution.</li>
+          <li><a href="https://www.oyez.org/cases/1964/496" target="_blank"><em>Griswold v. Connecticut</em></a> (1965): States may not restrict a married couple’s ability to be counseled on and access contraception. This landmark case was the first to articulate a Constitutional right to privacy.</li>
+          <li><a href="https://www.oyez.org/cases/1971/70-17" target="_blank"><em>Eisenstadt v. Baird</em></a> (1972): Unmarried individuals may not be denied counsel on or having access to contraception. This decision relied on the Equal Protection Clause of the Constitution's Fourteenth Amendment, protecting the rights of unmarried individuals.</li>
+          <li><a href="https://www.oyez.org/cases/1970/84" target="_blank"><em>United States v. Vuitch</em></a> (1971): A DC law that prohibited abortion unless “necessary for the preservation of the mother’s life or health” was not unconstitutionally vague. The Court also found that the burden of proof in finding an abortion unnecessary was on the prosecution.</li>
         </ul>
       </section>
 
@@ -141,7 +141,7 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">1.9</span>What did the decision say?</h3>
 
         <div class="aside-wrap">
-          <p>Roe v. Wade established two major things. First, states could not regulate abortions during the <span class="aside-trigger first-item" data-aside="opinion-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>first trimester</span>, because it represented a private medical decision between a woman and her doctor. This was grounded in the <span class="aside-trigger first-item" data-aside="opinion-quote-2"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>right to privacy</span>, but <span class="aside-trigger first-item" data-aside="opinion-quote-3"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>for the doctor more than for the woman</span>. The other major holding was that states could regulate abortion later on in pregnancy. After the first trimester, they could regulate the procedure to protect the health of the mother, and in the <span class="aside-trigger first-item" data-aside="viability-stage"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>viability stage</span>, the state could regulate or prohibit abortion and to preserve the <span class="aside-trigger first-item" data-aside="opinion-quote-4"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>potential life</span> (with exceptions for the health of the mother). Overall, Roe focused on a discussion of the privacy of the physician rather than on a woman’s private right to an abortion.</p>
+          <p><em>Roe v. Wade</em> established two major things. First, states could not regulate abortions during the <span class="aside-trigger first-item" data-aside="opinion-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>first trimester</span>, because it represented a private medical decision between a woman and her doctor. This was grounded in the <span class="aside-trigger first-item" data-aside="opinion-quote-2"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>right to privacy</span>, but <span class="aside-trigger first-item" data-aside="opinion-quote-3"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>for the doctor more than for the woman</span>. The other major holding was that states could regulate abortion later on in pregnancy. After the first trimester, they could regulate the procedure to protect the health of the mother, and in the <span class="aside-trigger first-item" data-aside="viability-stage"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>viability stage</span>, the state could regulate or prohibit abortion and to preserve the <span class="aside-trigger first-item" data-aside="opinion-quote-4"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>potential life</span> (with exceptions for the health of the mother). Overall, Roe focused on a discussion of the privacy of the physician rather than on a woman’s private right to an abortion.</p>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-1">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
@@ -226,12 +226,12 @@ if($_GET['type']!='ajax'){
 
         <p>Justice Blackmun unintentionally became a symbol of the women’s rights movement. While he initially distanced himself from the issue, he eventually came to embrace the cause.</p>
 
-        <p>Norma McCorvey, or Jane Roe, had her child long before the case reached the Supreme Court. After being given up for adoption, the identity of the child has remained private. McCorvey was baptized into the Catholic church in 1998 and is now a strong pro-life activist. In 2003, she filed suit in federal court to void the judgment in Roe v. Wade. The court found that since over 30 years had passed since the decision, it was unreasonable to reopen the case. The Fifth Circuit upheld the lower court’s decision, and the Supreme Court declined to hear the case.</p>
+        <p>Norma McCorvey, or Jane Roe, had her child long before the case reached the Supreme Court. After being given up for adoption, the identity of the child has remained private. McCorvey was baptized into the Catholic church in 1998 and is now a strong pro-life activist. In 2003, she filed suit in federal court to void the judgment in <em>Roe v. Wade</em>. The court found that since over 30 years had passed since the decision, it was unreasonable to reopen the case. The Fifth Circuit upheld the lower court’s decision, and the Supreme Court declined to hear the case.</p>
 
         <p>Public opinion since the decision has remained widely divided. Justice Blackmun received many letters of thanks from women around the country, but also approximately 80,000 hate letters. Even some proponents of abortion rights have been critical of Roe. Justice Ruth Bader Ginsburg has said, “My criticism of Roe is that it seemed to have stopped momentum on the side of change.” In other words, the decision came too soon, before a majority of public opinion came to support the cause. In fact, when the decision came down, 45 states were considering legislation to reform their abortion laws in some way.</p>
 
         <div class="aside-wrap">
-          <p>The Supreme Court heard many challenges related to Roe v. Wade, starting just a few years after the decision came down. These included <span class="aside-trigger first-item" data-aside="planned-parenthood-v-danforth"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Planned Parenthood v. Danforth</span> (1976), <span class="aside-trigger first-item force-wrap" data-aside="akron-v-akron"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>City of Akron v. Akron Center for Reproductive Health</span> (1983), and <span class="aside-trigger first-item force-wrap" data-aside="thornberg-v-acog"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Thornberg v. American College of Obstetricians and Gynecologists</span> (1986).</p>
+          <p>The Supreme Court heard many challenges related to <em>Roe v. Wade</em>, starting just a few years after the decision came down. These included <span class="aside-trigger first-item" data-aside="planned-parenthood-v-danforth"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span><em>Planned Parenthood v. Danforth</em></span> (1976), <span class="aside-trigger first-item force-wrap" data-aside="akron-v-akron"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span><em>City of Akron v. Akron Center for Reproductive Health</em></span> (1983), and <span class="aside-trigger first-item force-wrap" data-aside="thornberg-v-acog"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span><em>Thornberg v. American College of Obstetricians and Gynecologists</em></span> (1986).</p>
           <aside class="aside-container aside_info inactive" data-aside="planned-parenthood-v-danforth">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <p>Invalidating a law requiring prior written consent of the spouse of a woman seeking an abortion unless the abortion was necessary to protect the life of the mother. — <a href="https://www.oyez.org/cases/1975/74-1151" target="_blank">https://www.oyez.org/cases/1975/74-1151</a></p>
@@ -249,7 +249,7 @@ if($_GET['type']!='ajax'){
       </section>
 
       <section id="ch1-12" class="video-section">
-        <h3><span class="sub-chapter-numeral">1.12</span>Video: How did the Supreme Court establish the right to privacy used in Roe v. Wade?</h3>
+        <h3><span class="sub-chapter-numeral">1.12</span>Video: How did the Supreme Court establish the right to privacy used in <em>Roe v. Wade</em>?</h3>
 
         <div class="video-wrapper">
           <video class="video" poster="template/video/nahmod.jpg" width="1920px" height="1072px" preload="auto" controls="controls" style="width:100%; height:100%;">
@@ -267,8 +267,8 @@ if($_GET['type']!='ajax'){
         <h4>Quick take:</h4>
 
         <ul>
-          <li>Although Roe v. Wade has not been overturned, it’s not the law of the land anymore. Later decisions at the Supreme Court and legislation passed in Congress have shifted its guarantees and protections.</li>
-          <li>Roe v. Wade’s opinion focuses on the protection of doctors’ rights much more than it does on women’s rights.</li>
+          <li>Although <em>Roe v. Wade</em> has not been overturned, it’s not the law of the land anymore. Later decisions at the Supreme Court and legislation passed in Congress have shifted its guarantees and protections.</li>
+          <li><em>Roe v. Wade</em>’s opinion focuses on the protection of doctors’ rights much more than it does on women’s rights.</li>
         </ul>
       </section>
 

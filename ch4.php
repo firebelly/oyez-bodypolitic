@@ -66,7 +66,7 @@ if($_GET['type']!='ajax'){
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-4">
             <audio class="audioplayer" src="template/audio/Whole_Womans_Health_argument-4.mp3" type="audio/mp3" controls></audio>
-            <blockquote><p>“To infer that there is an unconstitutional purpose when there is a legitimate interest in promoting patient health, which is what Texas did here -- even Roe v. Wade said that states can ensure maximum safety for patients.”</p><cite>— Scott A. Keller, advocate for Hellerstedt</cite></blockquote>
+            <blockquote><p>“To infer that there is an unconstitutional purpose when there is a legitimate interest in promoting patient health, which is what Texas did here -- even <em>Roe v. Wade</em> said that states can ensure maximum safety for patients.”</p><cite>— Scott A. Keller, advocate for Hellerstedt</cite></blockquote>
           </aside>
         </div>
 
