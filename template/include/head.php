@@ -8,11 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Oyez - Body Politic</title>
     <link rel="canonical" href="http://projects.oyez.org/body-politic">
-    <meta name="description" content="A deep dive look at the Supreme Court and abortion law.">
+    <meta name="description" content="A deep dive look at the Supreme Court and abortion law">
     <meta property="og:title" content="Oyez - Body Politic" />
     <meta property="og:image" content="http://projects.oyez.org/body-politic/template/images/oyez-body-politic.jpg" />
     <meta property="og:url" content="http://projects.oyez.org/body-politic" />
-    <meta property="og:description" content="A deep dive look at the Supreme Court and abortion law." />
+    <meta property="og:description" content="A deep dive look at the Supreme Court and abortion law" />
     <link rel="stylesheet" href="template/css/main.min.css">
     <link type="text/plain" rel="author" href="humans.txt">
     <link rel="shortcut icon" type="image/ico" href="template/images/favicon.png">
@@ -37,7 +37,7 @@
       <div class="wrap">
         <div class="site-title">        
           <h1><a class="ajax home-link" href="/" data-target="0">Body Politic</a></h1>
-          <h2 class="subhead">The Supreme Court and abortion law.</h2>
+          <h2 class="subhead">The Supreme Court and abortion law</h2>
         </div>
         <?php include('template/include/resources-nav.php'); ?>
       </div>
