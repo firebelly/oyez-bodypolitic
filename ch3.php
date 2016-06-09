@@ -117,7 +117,7 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">3.8</span>What did the dissent say?</h3>
         
         <div class="aside-wrap">
-          <p>Justice Ruth Bader Ginsburg wrote the fiery dissent, which was joined by Justices John Paul Stevens, David Souter, and Stephen Breyer. She wrote that upholding the Act violated the precedent set by Casey, and that the statute must include a provision regarding the pregnant woman’s health, which was <span class="aside-trigger first-item" data-aside="opinion-quote-4"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>absent</span>. In announcing her dissent from the bench, she criticized the majority opinion as infringing on <span class="aside-trigger first-item" data-aside="dissent-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>women’s rights</span>.</p>
+          <p>Justice Ruth Bader Ginsburg wrote the fiery dissent, which was joined by Justices John Paul Stevens, David Souter, and Stephen Breyer. She wrote that upholding the Act violated the precedent set by Casey, and that the statute must include a provision regarding the pregnant woman’s health, which was <span class="aside-trigger first-item" data-aside="opinion-quote-4"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>absent</span>. In announcing her dissent from the bench, she criticized the majority opinion as infringing on <span class="aside-trigger audio-trigger first-item" data-aside="dissent-quote-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>women’s rights</span>.</p>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-4">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
@@ -125,11 +125,11 @@ if($_GET['type']!='ajax'){
               <cite>— Justice Ruth Bader Ginsburg, Dissent</cite>
             </blockquote>
           </aside>
-          <aside class="aside-container aside_info inactive" data-aside="dissent-quote-1">
-            <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+          <aside class="aside-container aside_audio inactive" data-aside="dissent-quote-1">
+            <audio class="audioplayer" src="template/audio/Gonzales_Carhart_dissent-1.mp3" type="audio/mp3" controls></audio>
             <blockquote>
               <p>“The Court shields the woman by denying her any choice in the matter and this way of protecting women recalls the ancient notions about women's place in society and under the Constitution ideas that have long since been discredited.”</p>
-              <cite>— quote from dissent</cite>
+              <cite>— Justice Ruth Bader Ginsburg, Dissent</cite>
             </blockquote>
           </aside>
         </div>
