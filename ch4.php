@@ -37,7 +37,10 @@ if($_GET['type']!='ajax'){
           <p>When the case was first granted, there were nine justices on the bench. But just before it was argued, Justice Antonin Scalia unexpectedly passed away at the age of 79. Justice Scalia was a well-known conservative voice on the bench who, in several cases, made clear that he did not view abortion as a constitutional right. His passing left eight justices on the bench: four liberals, three conservatives, and one <span class="aside-trigger first-item" data-aside="swing-vote"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>swing vote</span> - Justice Anthony Kennedy, who had voted to uphold the right to abortion in Casey, but had written the opinion restricting late-term abortions in Carhart II.</p>
           <aside class="aside-container aside_info inactive" data-aside="swing-vote">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
-            <p><a href="http://www.thecrimson.com/article/2015/10/23/justice-kennedy-harvard-law/" target="_blank">Kennedy: The cases swing, I don't.</a></p>
+            <blockquote>
+              <p>“The cases swing, I don't.”</p>
+              <cite>— Justice Anthony M. Kennedy, <a href="http://www.thecrimson.com/article/2015/10/23/justice-kennedy-harvard-law/" target="_blank">The Harvard Crimson</a></cite>
+            </blockquote>
           </aside>
         </div>
 

@@ -3001,6 +3001,7 @@ body[data-bodyClass=index] .site-header h2 {
   line-height: 1;
   font-size: 16px;
   max-width: 200px;
+  padding-top: 6px;
   position: relative;
   text-transform: none;
   margin: 0 0 32px 4px;
@@ -3016,7 +3017,7 @@ body[data-bodyClass=index] .site-header h2::before {
 }
 @media screen and (min-width: 700px) {
   body[data-bodyClass=index] .site-header h1 {
-    font-size: 96px;
+    font-size: 120px;
     line-height: .833333333em;
   }
   body[data-bodyClass=index] .site-header h2 {

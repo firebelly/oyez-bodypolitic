@@ -90,7 +90,7 @@ if($_GET['type']!='ajax'){
           </aside>
           <aside class="aside-container aside_audio inactive" data-aside="oral-argument-4">
             <audio class="audioplayer" src="template/audio/Gonzales_Carhart_argument-4.mp3" type="audio/mp3" controls></audio>
-            <blockquote>outburst, going over lines of “In terms of live witnesses, there were simply not that many. -> We'll give you an extra 30 seconds.”</blockquote>
+            <blockquote>Outburst.</blockquote>
           </aside>
         </div>
 
