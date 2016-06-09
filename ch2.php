@@ -10,7 +10,7 @@ if($_GET['type']!='ajax'){
       <section id="ch2-1">
         <h3><span class="sub-chapter-numeral">2.1</span>What happened in the states between Roe and Casey?</h3>
 
-        <p>After Roe, some states began placing restrictions on abortion, and made the procedure increasingly difficult to get. Pro-choice activists took these laws to court with mixed results. The Supreme Court dealt with a handful of these challenges, but none directly challenged the legality of abortion as outlined in Roe.</p>
+        <p>After <em>Roe</em>, some states began placing restrictions on abortion, and made the procedure increasingly difficult to get. Pro-choice activists took these laws to court with mixed results. The Supreme Court dealt with a handful of these challenges, but none directly challenged the legality of abortion as outlined in <em>Roe</em>.</p>
 
       </section>
 
@@ -24,14 +24,14 @@ if($_GET['type']!='ajax'){
       <section id="ch2-3">
         <h3><span class="sub-chapter-numeral">2.3</span>What was the case against the law?</h3>
 
-        <p>The challengers, comprised of several abortion clinics and physicians, argued that all of these restrictions violated a woman’s right to an abortion as guaranteed by <em>Roe v. Wade</em>. The challengers explained that women who would be forced to notify their husbands risked psychological and physical abuse. The mandatory parental permission provision required at least one doctor visit by the parents, potentially delaying the process. The challengers additionally argued that the law’s mandatory waiting period ensured each woman would have to make two trips to an abortion clinic; this would prove to be very difficult, if not impossible, for women from rural areas traveling hundreds of miles for the procedure. Even though the question of whether to overturn Roe was not directly asked, it was being implicitly debated.</p>
+        <p>The challengers, comprised of several abortion clinics and physicians, argued that all of these restrictions violated a woman’s right to an abortion as guaranteed by <em>Roe v. Wade</em>. The challengers explained that women who would be forced to notify their husbands risked psychological and physical abuse. The mandatory parental permission provision required at least one doctor visit by the parents, potentially delaying the process. The challengers additionally argued that the law’s mandatory waiting period ensured each woman would have to make two trips to an abortion clinic; this would prove to be very difficult, if not impossible, for women from rural areas traveling hundreds of miles for the procedure. Even though the question of whether to overturn <em>Roe</em> was not directly asked, it was being implicitly debated.</p>
 
       </section>
 
       <section id="ch2-4">
         <h3><span class="sub-chapter-numeral">2.4</span>How had the Court changed since Roe?</h3>
 
-        <p>The Supreme Court had changed drastically in the 30 years since its decision in Roe. Every justice who joined the bench after Justice Harry Blackmun, who wrote the opinion in Roe, had been appointed by a conservative president. With a bench dominated by appointees of Presidents Reagan and Bush, it seemed very likely that the right to abortion would be overturned.</p>
+        <p>The Supreme Court had changed drastically in the 30 years since its decision in <em>Roe</em>. Every justice who joined the bench after Justice Harry Blackmun, who wrote the opinion in <em>Roe</em>, had been appointed by a conservative president. With a bench dominated by appointees of Presidents Reagan and Bush, it seemed very likely that the right to abortion would be overturned.</p>
 
       </section>
 
@@ -39,7 +39,7 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">2.5</span>What happened in oral arguments?</h3>
 
         <div class="aside-wrap">
-          <p>Kathryn Kolbert, the advocate for Planned Parenthood, emphasized the right to privacy and <span class="aside-trigger first-item" data-aside="stare-decisis"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>stare decisis</span>. She argued that the Court had <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>already decided</span> the issues when they decided Roe. Ernest Preate, the advocate for Pennsylvania, argued that their statute <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>affected a minority of women</span>, so the petitioners’ worst-case scenario arguments were rare. He also argued that the Court should it was within the boundaries set by Roe. Kenneth Starr, the U.S. Solicitor General, argued that the state has an interest in regulating the lives of its <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>potential citizens</span>.</p>
+          <p>Kathryn Kolbert, the advocate for <em>Planned Parenthood</em>, emphasized the right to privacy and <span class="aside-trigger first-item" data-aside="stare-decisis"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>stare decisis</span>. She argued that the Court had <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>already decided</span> the issues when they decided <em>Roe</em>. Ernest Preate, the advocate for Pennsylvania, argued that their statute <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>affected a minority of women</span>, so the petitioners’ worst-case scenario arguments were rare. He also argued that the Court should it was within the boundaries set by <em>Roe</em>. Kenneth Starr, the U.S. Solicitor General, argued that the state has an interest in regulating the lives of its <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>potential citizens</span>.</p>
           <aside class="aside-container aside_info inactive" data-aside="stare-decisis">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <p>The legal principle that courts respect precedent. Latin for “to stand by what's been decided.”</p>
@@ -59,7 +59,7 @@ if($_GET['type']!='ajax'){
 
         </div>
 
-        <p>An interesting point that came up in arguments concerned “undue burden”, which had been briefly mentioned in a previous opinion, <a href="https://www.oyez.org/cases/1982/81-746" target="_blank"><em>City of Akron v. Akron Center for Reproductive Health</em></a> (1983). The phrase referred to measures meant to discourage abortions, and to what degree these measures would be considered overly restrictive. Justice John Paul Stevens asked whether the burden counted quantitatively, meaning the number of people affected, or qualitatively, meaning the level of burden on one person specifically. The state argued it was quantitative, whereas Planned Parenthood argued for qualitative.</p>
+        <p>An interesting point that came up in arguments concerned “undue burden”, which had been briefly mentioned in a previous opinion, <a href="https://www.oyez.org/cases/1982/81-746" target="_blank"><em>City of Akron v. Akron Center for Reproductive Health</em></a> (1983). The phrase referred to measures meant to discourage abortions, and to what degree these measures would be considered overly restrictive. Justice John Paul Stevens asked whether the burden counted quantitatively, meaning the number of people affected, or qualitatively, meaning the level of burden on one person specifically. The state argued it was quantitative, whereas <em>Planned Parenthood</em> argued for qualitative.</p>
 
       </section>
 
@@ -67,7 +67,7 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">2.6</span>What did the decision say?</h3>
 
         <div class="aside-wrap">
-          <p>After initially voting to uphold the Pennsylvania statute with the potential to overturn Roe, three justices joined together to craft a more moderate opinion. Justices Sandra Day O’Connor, Anthony Kennedy, and David Souter coauthored a plurality opinion that proposed a middle ground and upheld Roe, but changed some of the specifics of abortion requirements by introducing the <span class="aside-trigger first-item" data-aside="opinion-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>“undue burden” test</span>. The opinion walked a fine line and made clear that although some justices might be <span class="aside-trigger first-item" data-aside="opinion-quote-2"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>personally opposed to abortion</span>, they would respect the Court’s prior ruling.</p>
+          <p>After initially voting to uphold the Pennsylvania statute with the potential to overturn <em>Roe</em>, three justices joined together to craft a more moderate opinion. Justices Sandra Day O’Connor, Anthony Kennedy, and David Souter coauthored a plurality opinion that proposed a middle ground and upheld <em>Roe</em>, but changed some of the specifics of abortion requirements by introducing the <span class="aside-trigger first-item" data-aside="opinion-quote-1"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>“undue burden” test</span>. The opinion walked a fine line and made clear that although some justices might be <span class="aside-trigger first-item" data-aside="opinion-quote-2"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>personally opposed to abortion</span>, they would respect the Court’s prior ruling.</p>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-1">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
@@ -78,14 +78,14 @@ if($_GET['type']!='ajax'){
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-2">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
-              <p>“Within the bounds of normal stare decisis analysis, then, and subject to the considerations on which it customarily turns, the stronger argument is for affirming Roe’s central holding, with whatever degree of personal reluctance any of us may have, not for overruling it.”</p>
+              <p>“Within the bounds of normal stare decisis analysis, then, and subject to the considerations on which it customarily turns, the stronger argument is for affirming <em>Roe</em>’s central holding, with whatever degree of personal reluctance any of us may have, not for overruling it.”</p>
               <cite>— Opinion of the Court</cite>
             </blockquote>
           </aside>
         </div>
 
         <div class="aside-wrap">
-          <p>While the Court voted to uphold Roe, they did find that most of the regulations in the Pennsylvania statute did not create an undue burden on women seeking abortion. The only provision the Court found unconstitutional was the requirement that women inform their husbands before an abortion. The opinion discussed <span class="aside-trigger first-item" data-aside="opinion-quote-3"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>domestic abuse</span>, and the fear many women may have of informing their husbands they are considering an abortion.</p>
+          <p>While the Court voted to uphold <em>Roe</em>, they did find that most of the regulations in the Pennsylvania statute did not create an undue burden on women seeking abortion. The only provision the Court found unconstitutional was the requirement that women inform their husbands before an abortion. The opinion discussed <span class="aside-trigger first-item" data-aside="opinion-quote-3"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>domestic abuse</span>, and the fear many women may have of informing their husbands they are considering an abortion.</p>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-3">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
@@ -96,7 +96,7 @@ if($_GET['type']!='ajax'){
         </div>
 
         <div class="aside-wrap">
-          <p>Furthermore, the trimester approach established by Justice Blackmun in Roe was exchanged for a <span class="aside-trigger first-item" data-aside="opinion-quote-4"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>viability</span> approach. Under this method, states were allowed to regulate abortion after the fetus had reached viability, the point at which the fetus could survive outside of the womb. The three coauthors reasoned that with medical advances, viability would be found earlier in pregnancy as time went on.</p>
+          <p>Furthermore, the trimester approach established by Justice Blackmun in <em>Roe</em> was exchanged for a <span class="aside-trigger first-item" data-aside="opinion-quote-4"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>viability</span> approach. Under this method, states were allowed to regulate abortion after the fetus had reached viability, the point at which the fetus could survive outside of the womb. The three coauthors reasoned that with medical advances, viability would be found earlier in pregnancy as time went on.</p>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-4">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
@@ -112,7 +112,7 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">2.7</span>What did the dissent say?</h3>
 
         <div class="aside-wrap">
-          <p>Chief Justice William H. Rehnquist wrote that abortion was not a constitutional right. He argued that Roe had been decided wrongly, and that overturning it would have been the correct course of action. He criticized the <span class="aside-trigger first-item" data-aside="opinion-quote-5"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>middle ground</span> put forward in the majority opinion.</p>
+          <p>Chief Justice William H. Rehnquist wrote that abortion was not a constitutional right. He argued that <em>Roe</em> had been decided wrongly, and that overturning it would have been the correct course of action. He criticized the <span class="aside-trigger first-item" data-aside="opinion-quote-5"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>middle ground</span> put forward in the majority opinion.</p>
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-5">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
@@ -161,7 +161,7 @@ if($_GET['type']!='ajax'){
 
         <ul>
           <li>This case is actually more in effect in terms of federal abortion law than <em>Roe v. Wade</em> is. It established what standards abortion laws are judged by, and the viability test replaced the trimester standard.</li>
-          <li>The justices originally voted in conference to overturn <em>Roe v. Wade</em>, and Chief Justice Rehnquist was going to write the opinion. Justice Harry Blackmun had already begun writing his dissent when Justices O’Connor, Kennedy, and Souter formed their coalition to find a middle ground and preserve Roe while tightening regulations.</li>
+          <li>The justices originally voted in conference to overturn <em>Roe v. Wade</em>, and Chief Justice Rehnquist was going to write the opinion. Justice Harry Blackmun had already begun writing his dissent when Justices O’Connor, Kennedy, and Souter formed their coalition to find a middle ground and preserve <em>Roe</em> while tightening regulations.</li>
         </ul>
       </section>
 
