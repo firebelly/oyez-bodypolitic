@@ -31,10 +31,10 @@ if($_GET['type']!='ajax'){
       <section id="ch4-4">
         <h3><span class="sub-chapter-numeral">4.4</span>How has the Court changed since Carhart?</h3>
 
-        <p>Since its decision in <em>Carhart</em> II, the Supreme Court has shifted. Although Justices John Paul Stevens and David Souter had been appointed by conservative presidents, they usually voted along more traditionally liberal or centrist lines. They each retired during President Obama’s tenure and were replaced by Justices Sonia Sotomayor and Elena Kagan, both consistent members of the Court’s liberal coalition.</p>
+        <p>Since its decision in <em>Carhart II</em>, the Supreme Court has shifted. Although Justices John Paul Stevens and David Souter had been appointed by conservative presidents, they usually voted along more traditionally liberal or centrist lines. They each retired during President Obama’s tenure and were replaced by Justices Sonia Sotomayor and Elena Kagan, both consistent members of the Court’s liberal coalition.</p>
 
         <div class="aside-wrap">
-          <p>When the case was first granted, there were nine justices on the bench. But just before it was argued, Justice Antonin Scalia unexpectedly passed away at the age of 79. Justice Scalia was a well-known conservative voice on the bench who, in several cases, made clear that he did not view abortion as a constitutional right. His passing left eight justices on the bench: four liberals, three conservatives, and one <span class="aside-trigger first-item" data-aside="swing-vote"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>swing vote</span> - Justice Anthony Kennedy, who had voted to uphold the right to abortion in <em>Casey</em>, but had written the opinion restricting late-term abortions in <em>Carhart</em> II.</p>
+          <p>When the case was first granted, there were nine justices on the bench. But just before it was argued, Justice Antonin Scalia unexpectedly passed away at the age of 79. Justice Scalia was a well-known conservative voice on the bench who, in several cases, made clear that he did not view abortion as a constitutional right. His passing left eight justices on the bench: four liberals, three conservatives, and one <span class="aside-trigger first-item" data-aside="swing-vote"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>swing vote</span> - Justice Anthony Kennedy, who had voted to uphold the right to abortion in <em>Casey</em>, but had written the opinion restricting late-term abortions in <em>Carhart II</em>.</p>
           <aside class="aside-container aside_info inactive" data-aside="swing-vote">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
@@ -118,7 +118,7 @@ if($_GET['type']!='ajax'){
       <section id="ch4-quicktake">
         <h4>Quick take:</h4>
         <ul>
-          <li>This is the first time a major abortion case, or reproductive rights case at all, has gone before a bench with three female justices. Most of the recent cases had had only one, while Justices Sandra Day O’Connor and Ruth Bader Ginsburg were both on the bench for <em>Carhart</em> I.</li>
+          <li>This is the first time a major abortion case, or reproductive rights case at all, has gone before a bench with three female justices. Most of the recent cases had had only one, while Justices Sandra Day O’Connor and Ruth Bader Ginsburg were both on the bench for <em>Carhart I</em>.</li>
           <li>A law similar to the Texas one was passed recently in Louisiana, and challengers appealed to the Supreme Court. After the Court heard arguments in Whole Woman’s Health, the justices put a stay on the Louisiana law and thus blocked its enforcement. While the Court’s inner workings are shrouded in mystery, this could be a sign that the Texas law may not stand as it is.</li>
         </ul>
       </section>

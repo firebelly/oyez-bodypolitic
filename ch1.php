@@ -101,7 +101,7 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">1.8</span>What happened at oral arguments?</h3>
 
         <div class="aside-wrap">
-          <p>Sarah Weddington, the <span class="aside-trigger first-item" data-aside="advocate"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>advocate</span> for <em>Roe</em>, argued that the law was unconstitutional, citing the <span class="aside-trigger first-item" data-aside="ninth-ammendment"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Ninth Amendment</span>, the Equal Protection and Due Process Clauses of the <span class="aside-trigger first-item" data-aside="fourteenth-ammendment"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Fourteenth Amendment</span>, and privacy. She also argued that, if the law is intended to protect the fetus, <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>why are doctors punished</span> instead of the woman seeking the abortion? She also brought up the danger of self-abortion and the need for medical expertise.</p>
+          <p>Sarah Weddington, the <span class="aside-trigger first-item" data-aside="advocate"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>advocate</span> for Roe, argued that the law was unconstitutional, citing the <span class="aside-trigger first-item" data-aside="ninth-ammendment"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Ninth Amendment</span>, the Equal Protection and Due Process Clauses of the <span class="aside-trigger first-item" data-aside="fourteenth-ammendment"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>Fourteenth Amendment</span>, and privacy. She also argued that, if the law is intended to protect the fetus, <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>why are doctors punished</span> instead of the woman seeking the abortion? She also brought up the danger of self-abortion and the need for medical expertise.</p>
           <aside class="aside-container aside_info inactive" data-aside="advocate">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <p>Lawyer arguing at the Supreme Court</p>
@@ -249,7 +249,7 @@ if($_GET['type']!='ajax'){
       </section>
 
       <section id="ch1-12" class="video-section">
-        <h3><span class="sub-chapter-numeral">1.12</span>Video: How did the Supreme Court establish the right to privacy used in <em>Roe v. Wade</em>?</h3>
+        <h3><span class="sub-chapter-numeral">1.12</span>Video: How did the Supreme Court establish the right to privacy used in Roe v. Wade?</h3>
 
         <div class="video-wrapper">
           <video class="video" poster="template/video/nahmod.jpg" width="1920px" height="1072px" preload="auto" controls="controls" style="width:100%; height:100%;">

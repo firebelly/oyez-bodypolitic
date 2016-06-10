@@ -39,7 +39,7 @@ if($_GET['type']!='ajax'){
         <h3><span class="sub-chapter-numeral">2.5</span>What happened in oral arguments?</h3>
 
         <div class="aside-wrap">
-          <p>Kathryn Kolbert, the advocate for <em>Planned Parenthood</em>, emphasized the right to privacy and <span class="aside-trigger first-item" data-aside="stare-decisis"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>stare decisis</span>. She argued that the Court had <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>already decided</span> the issues when they decided <em>Roe</em>. Ernest Preate, the advocate for Pennsylvania, argued that their statute <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>affected a minority of women</span>, so the petitioners’ worst-case scenario arguments were rare. He also argued that the Court should it was within the boundaries set by <em>Roe</em>. Kenneth Starr, the U.S. Solicitor General, argued that the state has an interest in regulating the lives of its <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>potential citizens</span>.</p>
+          <p>Kathryn Kolbert, the advocate for Planned Parenthood, emphasized the right to privacy and <span class="aside-trigger first-item" data-aside="stare-decisis"><span class="notice-me"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg></span>stare decisis</span>. She argued that the Court had <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-1"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>already decided</span> the issues when they decided <em>Roe</em>. Ernest Preate, the advocate for Pennsylvania, argued that their statute <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-2"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>affected a minority of women</span>, so the petitioners’ worst-case scenario arguments were rare. He also argued that the Court should it was within the boundaries set by <em>Roe</em>. Kenneth Starr, the U.S. Solicitor General, argued that the state has an interest in regulating the lives of its <span class="aside-trigger audio-trigger first-item" data-aside="oral-argument-3"><span class="notice-me"><svg class="icon icon-audio"><use xlink:href="#icon-audio"></use></svg></span>potential citizens</span>.</p>
           <aside class="aside-container aside_info inactive" data-aside="stare-decisis">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <p>The legal principle that courts respect precedent. Latin for “to stand by what's been decided.”</p>
@@ -116,8 +116,8 @@ if($_GET['type']!='ajax'){
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-5">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
-              <p>“That is, quite simply, the issue in these cases: not whether the power of a woman to abort her unborn child is a ‘liberty’ in the absolute sense; or even whether it is a liberty of great importance to many women. Of course it is both. The issue is whether it is a liberty protected by the Constitution of the United States. I am sure it is not.”</p>
-              <cite>— Justice Antonin Scalia, Dissent</cite>
+              <p>“We conclude, however, that such an outcome is an unjustified constitutional compromise, one which leaves the Court in a position to closely scrutinize all types of abortion regulations despite the fact that it lacks the power to do so under the Constitution.”</p>
+              <cite>— Justice William H. Rehnquist, Dissent</cite>
             </blockquote>
           </aside>   
         </div>
@@ -126,8 +126,8 @@ if($_GET['type']!='ajax'){
           <aside class="aside-container aside_info inactive" data-aside="opinion-quote-6">
             <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
             <blockquote>
-              <p>“The viability line also has, as a practical matter, an element of fairness. In some broad sense it might be said that a woman who fails to act before viability has consented to the State's intervention on behalf of the developing child.”</p>
-              <cite>— quote from opinion</cite>
+            <p>“That is, quite simply, the issue in these cases: not whether the power of a woman to abort her unborn child is a ‘liberty’ in the absolute sense; or even whether it is a liberty of great importance to many women. Of course it is both. The issue is whether it is a liberty protected by the Constitution of the United States. I am sure it is not.”</p>
+            <cite>— Justice Antonin Scalia, Dissent</cite>
             </blockquote>
           </aside>   
         </div>
