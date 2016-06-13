@@ -11,8 +11,16 @@
       <h3>Books</h3>
       <ul class="resources-list">
         <li>
+          <h4><a href="http://www.hup.harvard.edu/catalog.php?isbn=9780674736771" target="_blank">After Roe: The Lost History of the Abortion Debate</a></h4>
+          <p>Mary Ziegler</p>
+        </li>
+        <li>
           <h4><a href="http://www.amazon.com/Becoming-Justice-Blackmun-Blackmuns-Supreme/dp/0805080570" target="_blank">Becoming Justice Blackmun</a></h4>
           <p>Linda Greenhouse</p>
+        </li>
+        <li>
+          <h4><a href="https://www.amazon.com/Liberty-Sexuality-Privacy-Making-Updated/dp/0520213025" target="_blank">Liberty & Sexuality: The Right to Privacy and the Making of Roe v. Wade</a></h4>
+          <p>David J. Garrow</p>
         </li>
         <li>
           <h4><a href="http://www.amazon.com/Nine-Inside-Secret-World-Supreme/dp/1400096790?ie=UTF8&*Version*=1&*entries*=0" target="_blank">The Nine</a></h4>
