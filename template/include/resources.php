@@ -1,7 +1,7 @@
 <div class="resources-container">
   
   <div class="wrap">
-    <h3 class="resources-title">Further Reading: <span class="target-title"></span></h3>
+    <h3 class="resources-title">More Information: <span class="target-title"></span></h3>
     <?php include('template/include/resources-nav.php'); ?>
   </div>
 
