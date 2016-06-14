@@ -153,14 +153,14 @@ if($_GET['type']!='ajax'){
 
       <div class="chapter-nav">
         <div class="prev-container">
-          <a href="/ch2" class="prev ajax">
+          <a href="ch2" class="prev ajax">
             <svg class="icon icon-arrow-left" role="img"><use xlink:href="#icon-arrow-left"></use></svg>
             <span class="label">Previous</span>
             <span class="title">Ch2<br> Gonzales v. Carhart</span>
           </a>
         </div>
         <div class="next-container">
-          <a href="/ch4" class="next ajax">
+          <a href="ch4" class="next ajax">
             <svg class="icon icon-arrow-right" role="img"><use xlink:href="#icon-arrow-right"></use></svg>
             <span class="label">Next</span>
             <span class="title">Ch4<br> Whole Woman's Health v. Hellerstedt</span>
